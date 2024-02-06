@@ -1,0 +1,22 @@
+﻿<Application x:Class="ExcelComparison.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ExcelComparison"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!--以下两个资源文件来自与三方UI库 HandyOrg-->
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml"/>
+                <!--......................................-->
+                <ResourceDictionary Source="pack://application:,,,/ExcelComparison;component/Styles/GloabalCommonControlStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/ExcelComparison;component/Styles/ListBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/ExcelComparison;component/Styles/ImageResources.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/ExcelComparison;component/Styles/DataGridStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <local:ViewModelLocator x:Key="Locator" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

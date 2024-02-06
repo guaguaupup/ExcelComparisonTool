@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <SolidColorBrush x:Key="RadioButton.Static.Background" Color="#00000000"/>
+    <SolidColorBrush x:Key="RadioButton.Checked.Background" Color="#326CF3"/>
+    <SolidColorBrush x:Key="RadioButton.Checked.Foreground" Color="White"/>
+    <SolidColorBrush x:Key="RadioButton.MouseOver.Background" Color="#40326CF3"/>
+    <SolidColorBrush x:Key="RadioButton.Static.Border" Color="Gray"/>
+
+    <Style TargetType="RadioButton" x:Key="RaddioButtonStyle">
+        <Setter Property="Background" Value="{StaticResource RadioButton.Static.Background}"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Height" Value="35"/>
+        <Setter Property="Padding" Value="-10,0,0,0"/>
+        <Setter Property="Margin" Value="2,0,0,0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid>
+                        <Path Fill="{TemplateBinding Background}" StrokeThickness="0"  x:Name="bckPath" Stroke="{StaticResource RadioButton.Static.Border}" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Path.Data>
+                                <PathGeometry Figures="M 0,0 H 110 L 140,30 L 0,30 Z"/>
+                            </Path.Data>
+                        </Path>
+                        <TextBlock Text="{TemplateBinding Content}" Foreground="{DynamicResource PrimaryTextBrush}" VerticalAlignment="Center" 
+                                   HorizontalAlignment="Center" Name="txtContent" Margin="{TemplateBinding Padding}"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="true">
+                            <Setter Property="Fill" Value="{StaticResource RadioButton.Checked.Background}" TargetName="bckPath"/>
+                            <Setter Property="Foreground" Value="{StaticResource RadioButton.Checked.Foreground}"  TargetName="txtContent"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Background" Value="{StaticResource RadioButton.MouseOver.Background}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

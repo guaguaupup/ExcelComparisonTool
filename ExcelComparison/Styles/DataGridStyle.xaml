@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Style x:Key="ColumnHeaderStyleC" TargetType="DataGridColumnHeader">
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="ColumnCommonStyle" TargetType="TextBlock">
+        <Setter Property="ToolTip" Value="{Binding Text, RelativeSource={RelativeSource Self}}"/>
+    </Style>
+    <Style x:Key="CenterColumnStyle" TargetType="TextBlock" BasedOn="{StaticResource ColumnCommonStyle}">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+    </Style>
+    <Style TargetType="DataGridCell" x:Key="DataGridCellStyle">
+        <Setter Property="MinWidth" Value="150"/>
+        <Setter Property="BorderThickness" Value="1,0,1,0"/>
+        <Setter Property="BorderBrush" Value="Gray"/>
+        <Setter Property="Width" Value="auto"/>
+        <Setter Property="MaxWidth" Value="400"/>
+        <Setter Property="Padding" Value="2"/>
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="BorderBrush" Value="White"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

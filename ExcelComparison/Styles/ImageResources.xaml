@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ImageBrush  x:Key="LoginViewBackgroundBrush" ImageSource="pack://application:,,,/IOView;component/Images/loginbody.png"/>
+    <ImageBrush  x:Key="CompanyIconBrush" ImageSource="pack://application:,,,/IOView;component/Images/sizone_logo_.png"/>
+    <ImageBrush  x:Key="SizoneTopBrush" ImageSource="pack://application:,,,/IOView;component/Images/Sizone_top_1.jpg"/>
+    <ImageBrush  x:Key="ModifyBrush" ImageSource="pack://application:,,,/IOView;component/Images/Modify.png"/>
+
+</ResourceDictionary>

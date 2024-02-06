@@ -1,0 +1,2749 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ZionClient_UserControls="clr-namespace:ZionClient.UserControls" mc:Ignorable="d">
+    <SolidColorBrush x:Key="LightBlue" Color="#FFF5FAFF"/>
+    <SolidColorBrush x:Key="IE_WhiteFontBrush" Color="White"/>
+    <SolidColorBrush x:Key="IE_BlueFontBrush" Color="#ffa0edff"/>
+    <SolidColorBrush x:Key="IE_DeepBlueFontBrush" Color="#ff0075df"/>
+    <SolidColorBrush x:Key="IE_YellowFontBrush" Color="#ffffff03"/>
+    <SolidColorBrush x:Key="GreenBrush" Color="#ff20fc04"/>
+
+
+
+    <!-- - - - - - - - - - - - - - - - - - - - BG Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_MainBG" Color="#FF31939E"/>
+
+    <LinearGradientBrush x:Key="Color_BG_BottomBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF477687" Offset="0"/>
+        <GradientStop Color="#FF1E6578" Offset="1"/>
+        <GradientStop Color="#FF94BED0" Offset="0.022"/>
+        <GradientStop Color="#FF103D4F" Offset="0.07"/>
+        <GradientStop Color="#FF00090F" Offset="0.08"/>
+        <GradientStop Color="#FF588295" Offset="0.045"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_BottomHighLight" Color="#FF04A3BB"/>
+
+    <SolidColorBrush x:Key="Color_BG_LeftBG" Color="#FF7DC8CA"/>
+    <SolidColorBrush x:Key="Color_BG_ArrowBG" Color="White"/>
+
+    <LinearGradientBrush x:Key="Color_BG_LeftGradient" EndPoint="-0.009,0.5" StartPoint="0.904,0.5">
+        <GradientStop Color="#FF389CA1" Offset="1"/>
+        <GradientStop Color="#FF48B2B6" Offset="0.9"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BD_LeftBorder" Color="#FF204F62"/>
+
+    <SolidColorBrush x:Key="Color_BD_LoginMovieOuterBorder" Color="#FF6DF2FF"/>
+
+    <LinearGradientBrush x:Key="Color_BG_PageBGGradient" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E508212B" Offset="0"/>
+        <GradientStop Color="#E5175670" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_PageBGGradient_2" Color="#E5175670"/>
+
+    <SolidColorBrush x:Key="Color_BG_PageSeparator" Color="#7F92FFFB"/>
+
+    <SolidColorBrush x:Key="Color_BG_PageBG" Color="#FF0A2834"/>
+
+    <RadialGradientBrush x:Key="Color_BG_PLCLamp_BG">
+        <GradientStop Color="#FF024178" Offset="0.004"/>
+        <GradientStop Color="#FF32A0C8" Offset="1"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_PLCLamp_HighLight">
+        <GradientStop Color="#FF64D7FF" Offset="1"/>
+        <GradientStop Color="White" Offset="0.2"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_PLCLamp_RedHighLight">
+        <GradientStop Color="#FFFF1C06" Offset="1"/>
+        <GradientStop Color="White" Offset="0.2"/>
+    </RadialGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_TopSeparator" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF69B7B9" Offset="0.334"/>
+        <GradientStop Color="#FF2E6670" Offset="1"/>
+        <GradientStop Color="#FF69B7B9" Offset="0.666"/>
+        <GradientStop Color="#FF2E6670" Offset="0.667"/>
+        <GradientStop Color="#FF00131B" Offset="0.333"/>
+        <GradientStop Color="#FF00131B" Offset="0"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_TopSeparator2" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF69B7B9" Offset="0.334"/>
+        <GradientStop Color="#FF2E6670" Offset="1"/>
+        <GradientStop Color="#FF69B7B9" Offset="0.666"/>
+        <GradientStop Color="#FF2E6670" Offset="0.667"/>
+        <GradientStop Color="#FF00131B" Offset="0.333"/>
+        <GradientStop Color="#FF00131B" Offset="0"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_WhiteLine" EndPoint="1,0.422" StartPoint="0.002,0.577">
+        <GradientStop Color="White"/>
+        <GradientStop Color="#7FFFFFFF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!-- RT Color Style -->
+
+    <SolidColorBrush x:Key="Color_BG_RTBG" Color="#FF001825"/>
+
+    <SolidColorBrush x:Key="Color_BG_RTMainBG" Color="#FF114E5B"/>
+
+    <RadialGradientBrush x:Key="Color_BG_RTMainGradient" RadiusX="0.564" RadiusY="0.967">
+        <GradientStop Color="#FF91E7EA" Offset="0"/>
+        <GradientStop Color="#FF0F8F9A" Offset="1"/>
+    </RadialGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_RTTopBG" Color="#FF104958"/>
+
+    <SolidColorBrush x:Key="Color_BG_RTTopInnerGlow" Color="#FF18687B"/>
+
+    <SolidColorBrush x:Key="Color_BD_RTMainBorder" Color="#FF166177"/>
+
+    <SolidColorBrush x:Key="Color_BD_RTTopBorder" Color="#FF166177"/>
+
+    <!-- Top Frame Color Style -->
+
+    <!--<LinearGradientBrush x:Key="Color_BG_TopFrame" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="#FF003E55" Offset="1"/>
+    </LinearGradientBrush>-->
+
+    <LinearGradientBrush x:Key="Color_BG_TopGradient" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#4CFFFFFF" Offset="0"/>
+        <GradientStop Color="White" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_TopGradient2" EndPoint="1,0.422" StartPoint="0.002,0.577">
+        <GradientStop Color="#FF25839B"/>
+        <GradientStop Color="#0025839B" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!-- Login Page Color Style -->
+
+    <LinearGradientBrush x:Key="Color_LoginBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="#FFAEE1E6" Offset="1"/>
+        <GradientStop Color="#FF000318" Offset="0.189"/>
+        <GradientStop Color="#FF5AB9C3" Offset="0.852"/>
+        <GradientStop Color="#FF003E51" Offset="0.4"/>
+        <GradientStop Color="#FF007687" Offset="0.65"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_Login_LineBG" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Offset="0" Color="#00AAEFFF"/>
+        <GradientStop Offset="1" Color="#00AAEFFF"/>
+        <GradientStop Color="#FEAAEFFF" Offset="0.05"/>
+        <GradientStop Color="#FEAAEFFF" Offset="0.95"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_Login_LineBG01" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Offset="0" Color="#00AAEFFF"/>
+        <GradientStop Offset="1" Color="#00AAEFFF"/>
+        <GradientStop Color="#FEAAEFFF" Offset="0.05"/>
+        <GradientStop Color="#FEAAEFFF" Offset="0.95"/>
+        <GradientStop Color="#FEAAEFFF" Offset="0.547"/>
+        <GradientStop Color="#00AAEFFF" Offset="0.624"/>
+        <GradientStop Color="#FDAAEFFF" Offset="0.701"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_Login_LineBG02" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#00AAEFFF" Offset="0"/>
+        <GradientStop Color="#00AAEFFF" Offset="1"/>
+        <GradientStop Color="#FEAAEFFF" Offset="0.05"/>
+        <GradientStop Color="#FEAAEFFF" Offset="0.95"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_Login_LoginPanelInnerGlow" Color="#FF87D6DA"/>
+
+    <SolidColorBrush x:Key="Color_BD_Login_LoginPanelBorder" Color="White"/>
+
+    <!-- Logo Style-->
+
+    <!--<LinearGradientBrush x:Key="Color_BG_LogoBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF97B3B6" Offset="0"/>
+        <GradientStop Color="#FF4E6F78" Offset="1"/>
+        <GradientStop Color="White" Offset="0.3"/>
+        <GradientStop Color="White" Offset="0.7"/>
+        <GradientStop Color="#FF97B3B6" Offset="0.5"/>
+    </LinearGradientBrush>-->
+
+    <!--<LinearGradientBrush x:Key="Color_BD_LogoBorder" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="White" Offset="0.5"/>
+        <GradientStop Color="#7FFFFFFF" Offset="1"/>
+    </LinearGradientBrush>-->
+
+    <LinearGradientBrush x:Key="Color_BG_LogoInnerGlow" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF1D3B42" Offset="0"/>
+        <GradientStop Color="#001D3B42" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <!-- User Control Color Style -->
+
+    <LinearGradientBrush x:Key="Color_BG_UserControl_TopBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E5A9D4E6" Offset="0"/>
+        <GradientStop Color="#E5000000" Offset="1"/>
+        <GradientStop Color="#E5B6DDED" Offset="0.02"/>
+        <GradientStop Color="#E54B6C7A" Offset="0.06"/>
+        <GradientStop Color="#E5032231" Offset="0.08"/>
+        <GradientStop Color="#E51A667C" Offset="0.85"/>
+        <GradientStop Color="#E5123F4D" Offset="0.7"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_UserControl_TopBorder" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E5BBE3E8" Offset="0"/>
+        <GradientStop Color="#005CB2BC" Offset="1"/>
+        <GradientStop Color="#E544878F" Offset="0.701"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_UserControl_TopArrowBG" Color="#FFFFC364"/>
+
+    <SolidColorBrush x:Key="Color_BG_UserControl_MainBG" Color="#E508212B"/>
+    <SolidColorBrush x:Key="Color_BG_UserControl_MainBG2" Color="#E5136B78"/>
+
+    <LinearGradientBrush x:Key="Color_BG_UserControl_BottomBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E5508095" Offset="0"/>
+        <GradientStop Color="#E52994AD" Offset="1"/>
+        <GradientStop Color="#E5A1CDE2" Offset="0.05"/>
+        <GradientStop Color="#E55F8B9F" Offset="0.15"/>
+        <GradientStop Color="#E507212D" Offset="0.18"/>
+        <GradientStop Color="#E5000E16" Offset="0.2"/>
+    </LinearGradientBrush>
+
+    <!-- Machine Color Style -->
+
+    <LinearGradientBrush x:Key="Color_BG_RobortArmBG" EndPoint="1.471,0.811" StartPoint="-0.496,0.179">
+        <GradientStop Color="#FF5C5C5C" Offset="0"/>
+        <GradientStop Color="#FF898989" Offset="1"/>
+        <GradientStop Color="#FFE0E0E0" Offset="0.685"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BD_RobortArmBorder" Color="#FF858585"/>
+
+    <RadialGradientBrush x:Key="Color_BG_TrayContainerBG">
+        <GradientStop Color="#FF818497" Offset="0.545"/>
+        <GradientStop Color="#FF3F435E" Offset="1"/>
+        <GradientStop Color="#FF3F435E" Offset="0.55"/>
+    </RadialGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BD_TrayContainerBorder" Color="#FF1C1F2D"/>
+
+    <SolidColorBrush x:Key="Color_BD_ChamberContainerBorder" Color="#FF5E5E5E"/>
+
+    <RadialGradientBrush x:Key="Color_BG_ChamberContainerBG">
+        <GradientStop Color="#FFAFAFAF" Offset="0.545"/>
+        <GradientStop Color="#FF747474" Offset="1"/>
+        <GradientStop Color="#FFA1A1A1" Offset="0.55"/>
+    </RadialGradientBrush>
+
+    <!-- Singnal Tower Style -->
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_RedBG" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF290000" Offset="0"/>
+        <GradientStop Color="#FF290000" Offset="1"/>
+        <GradientStop Color="#FF8A0000" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_RedTopBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF3A2424" Offset="0"/>
+        <GradientStop Color="#FF3A2424" Offset="1"/>
+        <GradientStop Color="#FFC47878" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_RedbottomBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF150201" Offset="0"/>
+        <GradientStop Color="#FF150201" Offset="1"/>
+        <GradientStop Color="#FF470603" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_RedBGHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="Red" Offset="0"/>
+        <GradientStop Color="Red" Offset="1"/>
+        <GradientStop Color="#FFF59F92" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_RedTopBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF795F5D" Offset="0"/>
+        <GradientStop Color="#FF795F5D" Offset="1"/>
+        <GradientStop Color="#FFE4B7B5" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_RedbottomBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF5D1303" Offset="0"/>
+        <GradientStop Color="#FF5D1303" Offset="1"/>
+        <GradientStop Color="#FFAD5A4A" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_YellowBG" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF231905" Offset="0"/>
+        <GradientStop Color="#FF231905" Offset="1"/>
+        <GradientStop Color="#FF775512" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_YellowTopBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF343223" Offset="0"/>
+        <GradientStop Color="#FF343223" Offset="1"/>
+        <GradientStop Color="#FFAEA775" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_YellowBottomBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF140C01" Offset="0"/>
+        <GradientStop Color="#FF140C01" Offset="1"/>
+        <GradientStop Color="#FF432702" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_YellowBGHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FFFDFF00" Offset="0"/>
+        <GradientStop Color="#FFFDFF00" Offset="1"/>
+        <GradientStop Color="#FFFEFFE3" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_YellowTopBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FFA2A550" Offset="0"/>
+        <GradientStop Color="#FFA2A550" Offset="1"/>
+        <GradientStop Color="#FFE1E4B5" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_YellowbottomBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF6B7200" Offset="0"/>
+        <GradientStop Color="#FF6B7200" Offset="1"/>
+        <GradientStop Color="#FFBABA67" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_GreenBG" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF0D1B17" Offset="0"/>
+        <GradientStop Color="#FF0D1B17" Offset="1"/>
+        <GradientStop Color="#FF2C5B4C" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_GreenTopBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF192623" Offset="0"/>
+        <GradientStop Color="#FF192623" Offset="1"/>
+        <GradientStop Color="#FF537F77" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_GreenbottomBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF09110E" Offset="0"/>
+        <GradientStop Color="#FF09110E" Offset="1"/>
+        <GradientStop Color="#FF1D392F" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_GreenBGHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF1FFF00" Offset="0"/>
+        <GradientStop Color="#FF1FFF00" Offset="1"/>
+        <GradientStop Color="#FFEBFFE2" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_GreenTopBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF769F6D" Offset="0"/>
+        <GradientStop Color="#FF769F6D" Offset="1"/>
+        <GradientStop Color="#FFC3EBB8" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_GreenbottomBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF0A5D03" Offset="0"/>
+        <GradientStop Color="#FF0A5D03" Offset="1"/>
+        <GradientStop Color="#FF76CC6B" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_WhiteBG" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF303030" Offset="0"/>
+        <GradientStop Color="#FF303030" Offset="1"/>
+        <GradientStop Color="#FFA0A0A0" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_WhiteTopBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF3E3E3E" Offset="0"/>
+        <GradientStop Color="#FF3E3E3E" Offset="1"/>
+        <GradientStop Color="#FFD1CFD0" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_WhitebottomBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="Black" Offset="1"/>
+        <GradientStop Color="#FF2B2B2B" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_WhiteBGHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FFF1F1F1" Offset="0"/>
+        <GradientStop Color="White" Offset="1"/>
+        <GradientStop Color="White" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_WhiteTopBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FFD0D0D0" Offset="0"/>
+        <GradientStop Color="#FFD0D0D0" Offset="1"/>
+        <GradientStop Color="#FFF3F3F3" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_WhitebottomBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF787878" Offset="0"/>
+        <GradientStop Color="#FF787878" Offset="1"/>
+        <GradientStop Color="#FFDEDEDE" Offset="0.502"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_BlueBG" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF0B1826" Offset="0"/>
+        <GradientStop Color="#FF0B1826" Offset="1"/>
+        <GradientStop Color="#FF245081" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_BlueTopBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF1B4264" Offset="0"/>
+        <GradientStop Color="#FF1B4264" Offset="1"/>
+        <GradientStop Color="#FF86BCE9" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_BluebottomBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF080A11" Offset="0"/>
+        <GradientStop Color="#FF080A11" Offset="1"/>
+        <GradientStop Color="#FF1A2038" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_SingnalTower_BlueBGHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF00E2FF" Offset="0.008"/>
+        <GradientStop Color="#FF00E2FF" Offset="1"/>
+        <GradientStop Color="#FFB7E1F7" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_BlueTopBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF60858B" Offset="0"/>
+        <GradientStop Color="#FF60858B" Offset="1"/>
+        <GradientStop Color="#FFC9EAF3" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_SingnalTower_BluebottomBorderHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF034F5D" Offset="0"/>
+        <GradientStop Color="#FF034F5D" Offset="1"/>
+        <GradientStop Color="#FF5EABBE" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <!-- - - - - - - - - - - - - - - - - - - - Button Color Style - - - - - - - - - - - - - - - - - - - -  -->
+
+    <!-- Default Button Style -->
+
+    <SolidColorBrush x:Key="Color_BTNPressedHighLight" Color="#7FFFFFFF"/>
+
+    <LinearGradientBrush x:Key="Color_BTNBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFE0FBFD" Offset="0"/>
+        <GradientStop Color="#FF36A7AC" Offset="1"/>
+        <GradientStop Color="#FF2D8996" Offset="0.49"/>
+        <GradientStop Color="#FF0C5E6E" Offset="0.5"/>
+        <GradientStop Color="#FF108893" Offset="0.75"/>
+        <GradientStop Color="#FF5DBBBD" Offset="0.95"/>
+        <GradientStop Color="#FF81C5CA" Offset="0.25"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BTNHighLight" Color="#4C9FFFCA"/>
+
+    <SolidColorBrush x:Key="Color_BTNOuterGlow" Color="White"/>
+
+    <LinearGradientBrush x:Key="Color_BTNTopGlow" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF0C5E6E" Offset="0"/>
+        <GradientStop Color="#000C5E6E" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BTNTopBorder" Color="#FFD7F8FA"/>
+
+    <LinearGradientBrush x:Key="Color_BTNTopLeftBorder" EndPoint="0.749,0.067" StartPoint="0.251,0.933" MappingMode="RelativeToBoundingBox">
+        <GradientStop Color="#FFB5E7EB"/>
+        <GradientStop Color="#FFD7F8FA" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BTNRightBorder" Color="#FF5DB1B8"/>
+
+    <LinearGradientBrush x:Key="Color_BTNRightTopBorder" EndPoint="0.244,0.067" StartPoint="0.756,0.933">
+        <GradientStop Color="#FF5DB1B8" Offset="0"/>
+        <GradientStop Color="#FFD7F8FA" Offset="0.7"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BTNLeftBorder" Color="#FFB5E7EB"/>
+
+    <LinearGradientBrush x:Key="Color_BTNLeftBottomBorder" EndPoint="0.244,0.067" StartPoint="0.756,0.933">
+        <GradientStop Color="#FF5DB1B8" Offset="0.3"/>
+        <GradientStop Color="#FFB5E7EB" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BTNBottomBorder" Color="#FF5DB1B8"/>
+
+    <LinearGradientBrush x:Key="Color_BTNBottomRightBorder" EndPoint="0.749,0.067" StartPoint="0.251,0.933">
+        <GradientStop Color="#FF5DB1B8" Offset="0.3"/>
+        <GradientStop Color="#FF5DB1B8" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!-- Close Button Style -->
+
+    <SolidColorBrush x:Key="Color_BG_BTN_CloseBG" Color="#FF07465D"/>
+
+    <SolidColorBrush x:Key="Color_BG_BTN_CloseBorder" Color="#FF073C51"/>
+
+    <SolidColorBrush x:Key="Color_BG_BTN_CloseHighLight" Color="#FF0C6987"/>
+
+    <!-- Left Button Style -->
+
+    <LinearGradientBrush x:Key="Color_BTN_LeftBG" EndPoint="0.5,0" StartPoint="0.5,1">
+        <GradientStop Color="#FF01222C" Offset="1"/>
+        <GradientStop Color="#FF165B72" Offset="0"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BTN_LeftHighLight" EndPoint="0.5,0" StartPoint="0.5,1">
+        <GradientStop Color="#FF024457" Offset="1"/>
+        <GradientStop Color="#FF1A90AF" Offset="0"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_BTN_LeftOuterGlow" Color="#FF4AD1D9"/>
+
+    <!-- Login Button Style -->
+
+    <LinearGradientBrush x:Key="Color_BG_Btn_LoginBtnBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFE0FBFD" Offset="0"/>
+        <GradientStop Color="#FF36A7AC" Offset="1"/>
+        <GradientStop Color="#FF2D8996" Offset="0.49"/>
+        <GradientStop Color="#FF0C5E6E" Offset="0.5"/>
+        <GradientStop Color="#FF108893" Offset="0.75"/>
+        <GradientStop Color="#FF5DBBBD" Offset="0.95"/>
+        <GradientStop Color="#FF81C5CA" Offset="0.25"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_Btn_LoginBtnTopGlow" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF0C5E6E" Offset="0"/>
+        <GradientStop Color="#000C5E6E" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_Btn_LoginBtnTopBorder" Color="#FFD7F8FA"/>
+
+    <LinearGradientBrush x:Key="Color_BG_Btn_LoginBtnTopLeftBorder" EndPoint="0.749,0.067" StartPoint="0.251,0.933" MappingMode="RelativeToBoundingBox">
+        <GradientStop Color="#FFB5E7EB"/>
+        <GradientStop Color="#FFD7F8FA" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_Btn_LoginBtnRightBorder" Color="#FF5DB1B8"/>
+
+    <LinearGradientBrush x:Key="Color_BG_Btn_LoginBtnRightTopBorder" EndPoint="0.244,0.067" StartPoint="0.756,0.933">
+        <GradientStop Color="#FF5DB1B8" Offset="0"/>
+        <GradientStop Color="#FFD7F8FA" Offset="0.7"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_Btn_LoginBtnLeftBorder" Color="#FFB5E7EB"/>
+
+    <LinearGradientBrush x:Key="Color_BG_Btn_LoginBtnLeftBottomBorder" EndPoint="0.244,0.067" StartPoint="0.756,0.933">
+        <GradientStop Color="#FF5DB1B8" Offset="0.3"/>
+        <GradientStop Color="#FFB5E7EB" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_Btn_LoginBtnBottomBorder" Color="#FF5DB1B8"/>
+
+    <LinearGradientBrush x:Key="Color_BG_Btn_LoginBtnBottomRightBorder" EndPoint="0.749,0.067" StartPoint="0.251,0.933">
+        <GradientStop Color="#FF5DB1B8" Offset="0.3"/>
+        <GradientStop Color="#FF5DB1B8" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_Btn_LoginBtnHighLight" Color="#4C9FFFCA"/>
+
+    <SolidColorBrush x:Key="Color_BG_Btn_LoginBtnOuterGlow" Color="White"/>
+
+    <!-- Logout Button Style -->
+
+    <SolidColorBrush x:Key="Color_BG_BTN_LogoutHighLight" Color="#B200CFD6"/>
+
+    <!-- RT Button Style -->
+
+    <LinearGradientBrush x:Key="Color_BG_BTN_RTOutBorder" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF1A5C69" Offset="0"/>
+        <GradientStop Color="#FF72BBC3" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_BTN_SmallRTBtnHighLight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="White" Offset="0"/>
+        <GradientStop Color="Transparent" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_BTN_SmallRTBtnInnerGlow" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF58DBE2" Offset="0"/>
+        <GradientStop Color="#FF008097" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_BTN_SmallRTBtnBG" Color="#FF093749"/>
+
+    <!-- Switch Button Style -->
+
+    <RadialGradientBrush x:Key="Color_BG_SwitchBtn_BG">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="#FF00192D" Offset="1"/>
+        <GradientStop Color="#FFCCE1F0" Offset="0.8"/>
+        <GradientStop Color="#FF000F1E" Offset="0.6"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_SwitchBtn_Error" GradientOrigin="0.861,0.178" RadiusX="0.565" RadiusY="0.565">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1" ScaleY="1"/>
+                <SkewTransform AngleX="0" AngleY="0" CenterX="0.5" CenterY="0.5"/>
+                <RotateTransform Angle="-75" CenterX="0.5" CenterY="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="White" Offset="0"/>
+        <GradientStop Color="#FFFF2300" Offset="1"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_SwitchBtn_InnerBG" GradientOrigin="0.861,0.178" RadiusX="0.565" RadiusY="0.565">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1" ScaleY="1"/>
+                <SkewTransform AngleX="0" AngleY="0" CenterX="0.5" CenterY="0.5"/>
+                <RotateTransform Angle="-75" CenterX="0.5" CenterY="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF2C5F91" Offset="0"/>
+        <GradientStop Color="#FF001928" Offset="1"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_SwitchBtn_HighLight" GradientOrigin="0.861,0.178" RadiusX="0.565" RadiusY="0.565">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1" ScaleY="1"/>
+                <SkewTransform AngleX="0" AngleY="0" CenterX="0.5" CenterY="0.5"/>
+                <RotateTransform Angle="-75" CenterX="0.5" CenterY="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="White" Offset="0.2"/>
+        <GradientStop Color="#FF009CFF" Offset="1"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_SwitchBtn_InnerBGUnable" GradientOrigin="0.861,0.178" RadiusX="0.565" RadiusY="0.565">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1" ScaleY="1"/>
+                <SkewTransform AngleX="0" AngleY="0" CenterX="0.5" CenterY="0.5"/>
+                <RotateTransform Angle="-75" CenterX="0.5" CenterY="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="Silver" Offset="0"/>
+        <GradientStop Color="#FF666666" Offset="1"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_SwitchBtn_BGUnable">
+        <GradientStop Color="#FF3D3D3D" Offset="0"/>
+        <GradientStop Color="#FF474747" Offset="1"/>
+        <GradientStop Color="#FFF1F1F1" Offset="0.8"/>
+        <GradientStop Color="#FF6C6C6C" Offset="0.6"/>
+    </RadialGradientBrush>
+
+    <!-- - - - - - - - - - - - - - - - - - - - ComboBox Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_BG_CbBoxBG" Color="#FF409AA2"/>
+
+    <SolidColorBrush x:Key="Color_BG_CbBoxInnerGlow" Color="#FF5CCBD1"/>
+
+    <SolidColorBrush x:Key="Color_BG_CbBoxHighLight" Color="#7FFFFFFF"/>
+
+    <SolidColorBrush x:Key="Color_BG_CbBox_ArrowBG" Color="White"/>
+
+    <LinearGradientBrush x:Key="Color_BG_CbBox_DropDownBtnBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF024457" Offset="0"/>
+        <GradientStop Color="#FF1A90AF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_CbBox_DropDownBtnHighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF167995" Offset="0"/>
+        <GradientStop Color="#FF1ABAE4" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_CbBox_PopupBG" Color="#FF68A7A7"/>
+
+    <SolidColorBrush x:Key="Color_BG_CbBox_PopupInnerGlow" Color="#FF5CCBD1"/>
+
+    <SolidColorBrush x:Key="Color_BD_CbBoxBorder" Color="#FF12495A"/>
+
+    <SolidColorBrush x:Key="Color_BD_CbBox_PopupBorder" Color="#FF073C51"/>
+
+    <!-- Login Page ComboBox Style -->
+
+    <LinearGradientBrush x:Key="Color_BG_CbBox_DropDownBtnBG_Login" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF024D66" Offset="0"/>
+        <GradientStop Color="#FF188FA8" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_CbBox_DropDownBtnHighLight_Login" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF167995" Offset="0"/>
+        <GradientStop Color="#FF23C5EF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BD_CbBox_PopupBorder_Login" Color="#FF073C51"/>
+
+    <SolidColorBrush x:Key="Color_BG_CbBox_PopupInnerGlow_Login" Color="#FF007C7A"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - DataGrid Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_FG_DataGrid_DataColor" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_BD_DataGrid_Border" Color="#CC071D25"/>
+
+    <SolidColorBrush x:Key="Color_BG_DataGrid_BG" Color="#B20090A6"/>
+
+    <SolidColorBrush x:Key="Color_BG_DataGrid_Highlight" Color="#FF006A9F"/>
+
+    <SolidColorBrush x:Key="Color_BG_DataGrid_IsSelectBG" Color="#FF005080"/>
+
+    <SolidColorBrush x:Key="Color_BG_DataGrid_FirstColumnBG" Color="#B209303D"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - Gas Line Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <LinearGradientBrush x:Key="Color_BG_GasLine_3DBG01" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="Black" Offset="1"/>
+        <GradientStop Color="#00828282" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_GasLine_3DBG02" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="Black" Offset="1"/>
+        <GradientStop Color="#00828282" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_GasLine_BG" Color="#FF8D8D8D"/>
+
+    <SolidColorBrush x:Key="Color_BD_GasLine_Border" Color="#FF434343"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - ListView Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_BG_ListViewBG" Color="#FF001D2E"/>
+
+    <SolidColorBrush x:Key="Color_BG_ListViewBorder" Color="#FF27B4BC"/>
+
+    <SolidColorBrush x:Key="Color_BG_ListView_ColumnBG1" Color="#FF0D4051"/>
+
+    <SolidColorBrush x:Key="Color_BG_ListView_ColumnBG2" Color="#FF006B80"/>
+
+    <SolidColorBrush x:Key="ListBorder" Color="#828790"/>
+
+    <LinearGradientBrush x:Key="Color_BG_ListViewHeader_BG" EndPoint="0.5,0" StartPoint="0.5,1">
+        <GradientStop Color="#FF175C73" Offset="0"/>
+        <GradientStop Color="#FF0C3645" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_ListViewItem_BG" Color="#B20090A6"/>
+
+    <SolidColorBrush x:Key="Color_FG_ListViewText" Color="#FFA3FFFE"/>
+
+    <SolidColorBrush x:Key="Color_FG_ListViewTitle" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_BG_ListViewThumb_BG" Color="#E5071B23"/>
+
+    <SolidColorBrush x:Key="Color_BG_ListViewBG_HighLight" Color="#3FA3FFFE"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - MenuItem Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_BG_Menu_DefaultMenu" Color="#FF0F252F"/>
+
+    <SolidColorBrush x:Key="Color_BG_Menu_DefaultMenuGlow" Color="#FF4AD1D9"/>
+
+    <LinearGradientBrush x:Key="Color_BG_Menu_DefaultMenuOnMouseOver" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF004362" Offset="0"/>
+        <GradientStop Color="#FF198AAC" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_Menu_DefaultSubMenu" Color="#FF258889"/>
+
+    <SolidColorBrush x:Key="Color_BG_Menu_DefaultSubMenuGlow" Color="#FF3C9999"/>
+
+    <SolidColorBrush x:Key="Color_BG_Menu_Line1" Color="#FF257479"/>
+
+    <SolidColorBrush x:Key="Color_BG_Menu_Line2" Color="#FF8DCACA"/>
+
+    <LinearGradientBrush x:Key="Color_BG_Menu_SubMenuHighLight" EndPoint="0,0.5" StartPoint="1,0.5" Opacity="0.5">
+        <GradientStop Offset="0"/>
+        <GradientStop Offset="1"/>
+        <GradientStop Color="White" Offset="0.3"/>
+        <GradientStop Color="White" Offset="0.7"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BD_Menu_DefaultMenuBorder" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="White" Offset="0"/>
+        <GradientStop Color="#FF69DCFF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BD_Menu_DefaultSubMenuBorder" Color="#FF073A45"/>
+
+    <SolidColorBrush x:Key="Color_BG_MenuBG" Color="#FF0E3A49"/>
+
+    <SolidColorBrush x:Key="Color_BG_Menu_InnerBG" Color="#FF09161D"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - Scrollbar Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_BG_Scrollbar_ArrowBG" Color="#FF5ACDCD"/>
+
+    <SolidColorBrush x:Key="Color_BG_Scrollbar_ArrowHighLight" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_BG_Scrollbar_BG" Color="#4C041218"/>
+
+    <LinearGradientBrush x:Key="Color_BG_Scrollbar_SliderBG" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF175C73" Offset="0"/>
+        <GradientStop Color="#FF0C3645" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_BottomBorder" Color="#FF05141C"/>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_LeftBorder" Color="#FF1E728E"/>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_LeftBottomBorder" Color="#FF092E45"/>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_RightBorder" Color="#FF08202C"/>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_RightBottomBorder" Color="#FF02090E"/>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_TopLeftBorder" Color="#FF58F9FF"/>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_TopBorder" Color="#FF30ABCE"/>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_TopRightBorder" Color="#FF1886B6"/>
+
+    <SolidColorBrush x:Key="Color_BD_Scrollbar_HighLight" Color="#7F00C0FF"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - TabItem Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_BG_TabOuterBorder" Color="#7F92FFFB"/>
+
+    <LinearGradientBrush x:Key="Color_BG_TabItemBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#7F186883" Offset="0"/>
+        <GradientStop Color="#19186883" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_TabItem_OuterGlow" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#BF21A5D2" Offset="0"/>
+        <GradientStop Color="#1921A5D2" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_Tab_UnableBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#7F6C767A" Offset="0"/>
+        <GradientStop Color="#006C767A" Offset="0.9"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_TabItem_OuterGlow_IsSelect" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E550B8DB" Offset="0"/>
+        <GradientStop Color="#3392FFFB" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!-- - - - - - - - - - - - - - - - - - - - TreeView Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_BG_TreeViewHighLight" Color="#B2FFFFFF"/>
+
+    <SolidColorBrush x:Key="Color_BG_TreeView_TreeArrowBG" Color="#FFFFD866"/>
+
+    <SolidColorBrush x:Key="Color_BG_TreeView_TreeArrowOnMouseOver" Color="White"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - TextBox Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_BG" Color="#FF409AA2"/>
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_HighLight" Color="#FF0083C4"/>
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_InnerGlow" Color="#FF97E7EB"/>
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_TopTxtBoxBG" Color="#FF7EBAC0"/>
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_TopTxtBoxInnerGlow" Color="#FF006678"/>
+
+    <SolidColorBrush x:Key="Color_BD_TxtBox_Border" Color="#FF12495A"/>
+
+    <SolidColorBrush x:Key="Color_BD_TxtBox_TopTxtBoxBorder" Color="#FFE8FDFF"/>
+
+    <!-- Login Page TextBox Style -->
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_LoginBG" Color="#FF3AC2C6"/>
+
+    <SolidColorBrush x:Key="Color_BD_TxtBox_LoginBorder" Color="#FF82C6CE"/>
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_LoginInnerGlow" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_LoginHighLight" Color="#59FFFFFF"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - Effect Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <Color x:Key="Color_BG_BTN_LeftOuterShadow">#FF2395A1</Color>
+
+    <Color x:Key="Color_BG_TopShadow">#FF0E252E</Color>
+
+    <Color x:Key="Color_BG_SingnalTower_RedHighLight">#FFFF7373</Color>
+
+    <Color x:Key="Color_BG_SingnalTower_YellowHighLight">#FFFDFF89</Color>
+
+    <Color x:Key="Color_BG_SingnalTower_GreenHighLight">#FF8FFF73</Color>
+
+    <Color x:Key="Color_BG_SingnalTower_WhiteHighLight">White</Color>
+
+    <Color x:Key="Color_BG_SingnalTower_BlueHighLight">#FF73F2FF</Color>
+
+    <Color x:Key="Color_BG_SwitchBtn_ErrorOuterGlow">#FFFFC8BA</Color>
+
+    <Color x:Key="Color_BG_SwitchBtn_OuterGlow">#FFA0EBFF</Color>
+
+    <Color x:Key="Color_BG_SwitchBtn_RedOuterGlow">#FFFF7878</Color>
+
+    <Color x:Key="Color_Effect_TitleTextOuterGlow">#FF00D9FF</Color>
+
+    <!-- - - - - - - - - - - - - - - - - - - - FG Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <SolidColorBrush x:Key="Color_FG_Black" Color="Black"/>
+
+    <SolidColorBrush x:Key="Color_FG_BtnFontColor" Color="#FF03151B"/>
+
+    <SolidColorBrush x:Key="Color_FG_BTN_CloseBtn" Color="#FFA7CECE"/>
+
+    <SolidColorBrush x:Key="Color_FG_BottomTextColor" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_FG_GroupBox_FontColor" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_FG_LoginTitle" Color="#FF8AFAFE"/>
+
+    <LinearGradientBrush x:Key="Color_FG_LogoTextColor" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="White" Offset="0"/>
+        <GradientStop Color="White" Offset="0.75"/>
+        <GradientStop Color="White" Offset="0.49"/>
+        <GradientStop Color="#FFA3BFC2" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_FG_TabItem" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_FG_TextBlock_LeftFrame" Color="#FF10494F"/>
+
+    <SolidColorBrush x:Key="Color_FG_TextBlock_Top" Color="#FF92FDF2"/>
+
+    <SolidColorBrush x:Key="Color_FG_TextBox_Top" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_FG_TextBlock_TopInvertedImage" Color="#FF92FDF2"/>
+
+    <SolidColorBrush x:Key="Color_FG_TitleColor" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_FG_TreeViewFirstTitle" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_FG_TreeViewSecondTitle" Color="#FFD0F0F1"/>
+
+    <SolidColorBrush x:Key="Color_FG_TreeViewThridTitle" Color="#FF99CCCE"/>
+
+    <SolidColorBrush x:Key="Color_FG_TreeViewSubtitle" Color="#FF75AEB1"/>
+
+    <SolidColorBrush x:Key="Color_FG_TreeViewHighLight" Color="#FF0D4051"/>
+
+    <SolidColorBrush x:Key="Color_FG_White" Color="White"/>
+
+    <!-- - - - - - - - - - - - - - - - - - - - Font Family Color style - - - - - - - - - - - - - - - - - - -  -->
+
+    <FontFamily x:Key="Font_Arial">Arial</FontFamily>
+
+    <FontFamily x:Key="Font_MicrosoftTaiLe">Microsoft Tai Le</FontFamily>
+
+    <!-- - - - - - - - - - - - - - - - - - - - Image style - - - - - - - - - - - - - - - - - - -  -->
+
+    <Style x:Key="WelcomeImage" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/login2_DarkGreen.png"/>
+        <Setter Property="Width" Value="600"/>
+        <Setter Property="Height" Value="400"/>
+    </Style>
+
+    <Style x:Key="LoginImage" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/LoginBG.png"></Setter>
+        <Setter Property="Width" Value="1024"/>
+        <Setter Property="Height" Value="499"/>
+    </Style>
+
+    <Style x:Key="LogoffImage" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/logoff.jpg"></Setter>
+        <Setter Property="Width" Value="600"/>
+        <Setter Property="Height" Value="480"/>
+    </Style>
+
+    <Style x:Key="ShutdownImage" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/LogoffBG_DarkGreen_2.png"></Setter>
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Height" Value="350"/>
+    </Style>
+
+    <Style x:Key="WelcomeImage_MOCVD" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/login2_DarkGreen_MOCVD.png"/>
+        <Setter Property="Width" Value="600"/>
+        <Setter Property="Height" Value="400"/>
+    </Style>
+
+    <Style x:Key="LoginImage_MOCVD" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/LoginBG_MOCVD.png"></Setter>
+        <Setter Property="Width" Value="1024"/>
+        <Setter Property="Height" Value="499"/>
+    </Style>
+
+    <Style x:Key="LogoffImage_MOCVD" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/LogoffBG_DarkGreen_MOCVD.png"></Setter>
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Height" Value="350"/>
+    </Style>
+
+    <Style x:Key="ShutdownImage_MOCVD" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/LogoffBG_DarkGreen_MOCVD_2.png"></Setter>
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Height" Value="350"/>
+    </Style>
+
+    <Style x:Key="BottomBtnImage" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="pack://application:,,,/Astro.Resources;component/Images/frame/browser.png"></Setter>
+        <Setter Property="Width" Value="29"/>
+        <Setter Property="Height" Value="29"/>
+    </Style>
+
+    <Style x:Key="TextBlockStyle_1" TargetType="{x:Type TextBlock}">
+        <Setter Property="Padding" Value="2"/>
+        <Setter Property="Foreground" Value="{DynamicResource Color_FG_White}"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="Background" Value="#7FFDFF00"/>
+    </Style>
+
+    <Style x:Key="TextBlockStyle_2" TargetType="{x:Type TextBlock}">
+        <Setter Property="Padding" Value="2"/>
+        <Setter Property="Foreground" Value="{DynamicResource Color_FG_White}"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="Background" Value="#7F00D6FF"/>
+    </Style>
+
+    <Style x:Key="TextBlockStyle_3" TargetType="{x:Type TextBlock}">
+        <Setter Property="Padding" Value="2"/>
+        <Setter Property="Foreground" Value="{DynamicResource Color_FG_White}"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="Background" Value="#7F00FFCA"/>
+    </Style>
+
+    <LinearGradientBrush x:Key="Color_BG_GasLine_BG01" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="Black" Offset="1"/>
+        <GradientStop Color="#00828282" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_GasLine_BG02" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="Black" Offset="1"/>
+        <GradientStop Color="#00828282" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_FG_TitleMenu" Color="#FF71D7DA"/>
+    <SolidColorBrush x:Key="Color_FG_TitleMenu_Selected" Color="White"/>
+    <SolidColorBrush x:Key="Color_FG_HistoryMenu" Color="#FF71D7DA"/>
+    <SolidColorBrush x:Key="Color_FG_HistoryMenu_Selected" Color="White"/>
+    <SolidColorBrush x:Key="Color_BG_History" Color="#66004858"/>
+    <SolidColorBrush x:Key="Color_BD_History" Color="#B222515C"/>
+    <Color x:Key="Color_Effect_History">#FF00B4B4</Color>
+    <SolidColorBrush x:Key="Color_FG_Alarm" Color="Red"/>
+    <SolidColorBrush x:Key="Color_FG_Alarm_Listview" Color="Orange"/>
+    <SolidColorBrush x:Key="Color_FG_Warning" Color="Orange"/>
+    <SolidColorBrush x:Key="Color_FG_Warning_Listview" Color="Yellow"/>
+
+    <SolidColorBrush x:Key="Color_FG_RTBtn" Color="White"/>
+    <SolidColorBrush x:Key="Color_FG_RTBtnHighLight" Color="Orange"/>
+    <LinearGradientBrush x:Key="Color_BG_RTTable_BG1" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#CC63C8CE" Offset="1"/>
+        <GradientStop Color="#4C63C8CE"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_RTTable_BG2" Color="#4C00DDEB"/>
+    <SolidColorBrush x:Key="Color_BG_TxtBox_Changed" Color="#FFC0F18D"/>
+    <SolidColorBrush x:Key="Color_BG_TxtBox_Warning" Color="#FFFFE63D"/>
+
+    <SolidColorBrush x:Key="Color_BG_TxtBox_BGDisable" Color="#FF898989"/>
+    <SolidColorBrush x:Key="Color_BD_TxtBox_BDDisable" Color="#FF4D4D4D"/>
+    <SolidColorBrush x:Key="Color_BG_TxtBox_InnerGlowDisable" Color="#FFC8C8C8"/>
+    <SolidColorBrush x:Key="Color_FG_TxtBox_Disable" Color="#FF4D4D4D"/>
+    <LinearGradientBrush x:Key="Color_BG_CbBox_DropdownDisable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF545454" Offset="0"/>
+        <GradientStop Color="#FFA5A5A5" Offset="1"/>
+    </LinearGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_LoadingBG" GradientOrigin="0.8,0" RadiusY="0.8" RadiusX="0.8">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                <RotateTransform Angle="45" CenterY="0.5" CenterX="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="White" Offset="0"/>
+        <GradientStop Color="#FF00AD12" Offset="1"/>
+    </RadialGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_DataGrid_HeadBG" Color="#E5082025"/>
+
+    <SolidColorBrush x:Key="Color_BG_PumpStatus_Warning" Color="#FFFFC717"/>
+    <SolidColorBrush x:Key="Color_BG_PumpStatus_On" Color="#FF00C800"/>
+    <SolidColorBrush x:Key="Color_BG_PumpStatus_Off" Color="#FF8A8989"/>
+    <SolidColorBrush x:Key="Color_BG_PumpStatus_Error" Color="#FFFF0000"/>
+
+    <SolidColorBrush x:Key="Color_FG_Unable" Color="#FF8B8B8B"/>
+
+    <LinearGradientBrush x:Key="Color_BTNUnableBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFF7F7F7" Offset="0"/>
+        <GradientStop Color="#FFB1B1B1" Offset="1"/>
+        <GradientStop Color="#FFAFAFAF" Offset="0.49"/>
+        <GradientStop Color="#FF959595" Offset="0.5"/>
+        <GradientStop Color="#FFA1A1A1" Offset="0.75"/>
+        <GradientStop Color="#FFDADADA" Offset="0.95"/>
+        <GradientStop Color="#FFD2D2D2" Offset="0.25"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BTNUnableTopGlow" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFC4C4C4" Offset="0"/>
+        <GradientStop Color="#00D4D4D4" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BTNUnableBottomRightBorder" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF9F9F9F" Offset="0.9"/>
+        <GradientStop Color="#FF878787" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_ItemControlBG" Color="#FF519568"/>
+    <SolidColorBrush x:Key="Color_BG_ItemControlInnerBG" Color="#FF2F4E48"/>
+    <SolidColorBrush x:Key="Color_BD_ItemControlBorder" Color="Black"/>
+    <SolidColorBrush x:Key="Color_BG_ItemControlRectangle" Color="#FF609B90"/>
+    <SolidColorBrush x:Key="Color_FG_ItemControlWaferNumber" Color="#FF00D617"/>
+
+    <RadialGradientBrush x:Key="Color_BG_LoadingBarBG" GradientOrigin="0.8,0" RadiusY="0.8" RadiusX="0.8">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                <RotateTransform Angle="45" CenterY="0.5" CenterX="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="White" Offset="0"/>
+        <GradientStop Color="#FF00C89F" Offset="1"/>
+    </RadialGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_ChartBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E50A2B37" Offset="0"/>
+        <GradientStop Color="#E5195F78" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_FG_Chart" Color="White"/>
+
+    <LinearGradientBrush x:Key="Color_BG_DialogBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF00556E" Offset="0"/>
+        <GradientStop Color="#FF4CB0CA" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_DialogBG2" Color="#FF4CB0CA"/>
+    <SolidColorBrush x:Key="Color_BD_DialogBD" Color="#FF97E7EB"/>
+
+    <LinearGradientBrush x:Key="Color_BG_AboutPageBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF0C5E6E" Offset="0"/>
+        <GradientStop Color="#000C5E6E" Offset="1"/>
+    </LinearGradientBrush>
+
+    <RadialGradientBrush x:Key="Color_BG_SelectCtrlBG" GradientOrigin="0.861,0.178" RadiusX="0.565" RadiusY="0.565">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1" ScaleY="1"/>
+                <SkewTransform AngleX="0" AngleY="0" CenterX="0.5" CenterY="0.5"/>
+                <RotateTransform Angle="-75" CenterX="0.5" CenterY="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF2C7A91" Offset="0"/>
+        <GradientStop Color="#FF002029" Offset="1"/>
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_SelectCtrlInnerGlow" RadiusX="0.564" RadiusY="0.967">
+        <GradientStop Color="#B2C3F2F3"/>
+        <GradientStop Color="#B20A737C" Offset="1"/>
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_SelectCtrlBG_HighLight" GradientOrigin="0.861,0.178" RadiusX="0.565" RadiusY="0.565">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1" ScaleY="1"/>
+                <SkewTransform AngleX="0" AngleY="0" CenterX="0.5" CenterY="0.5"/>
+                <RotateTransform Angle="-75" CenterX="0.5" CenterY="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FFD9F7D8" Offset="0"/>
+        <GradientStop Color="#FF00FF28" Offset="1"/>
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_SelectCtrlInnerGlow_HighLight" RadiusX="0.564" RadiusY="0.967">
+        <GradientStop Color="#B2FFFFFF"/>
+        <GradientStop Color="#B22AFD00" Offset="1"/>
+    </RadialGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BTN_SpecialButtonBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF68CCD4" Offset="0"/>
+        <GradientStop Color="#FF1E6A6E" Offset="1"/>
+        <GradientStop Color="#FF1C6C78" Offset="0.49"/>
+        <GradientStop Color="#FF083943" Offset="0.5"/>
+        <GradientStop Color="#FF0D5D64" Offset="0.75"/>
+        <GradientStop Color="#FF3A8A8B" Offset="0.95"/>
+        <GradientStop Color="#FF3B868B" Offset="0.25"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BTN_SpecialButtonHighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFAFF0F5" Offset="0"/>
+        <GradientStop Color="#FF2C8C91" Offset="1"/>
+        <GradientStop Color="#FF338A97" Offset="0.49"/>
+        <GradientStop Color="#FF256E7E" Offset="0.5"/>
+        <GradientStop Color="#FF228C95" Offset="0.75"/>
+        <GradientStop Color="#FF54B5B6" Offset="0.95"/>
+        <GradientStop Color="#FF5FADB2" Offset="0.25"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="GroupButton_DropBtn_BG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF127489" Offset="0"/>
+        <GradientStop Color="#FF22BDC9" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="GroupButton_DropBtn_BG_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF6E6E6E" Offset="0"/>
+        <GradientStop Color="#FFB3B3B3" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="GroupButton_DropBtn_TopBorder" Color="#9900FFEE"/>
+    <SolidColorBrush x:Key="GroupButton_DropBtn_TopBorder_Unable" Color="#99FFFFFF"/>
+    <SolidColorBrush x:Key="GroupButton_DropBtn_BottomBorder_Unable" Color="#99000000"/>
+
+    <SolidColorBrush x:Key="Color_BG_LockviewBG" Color="#E508212B"/>
+    <SolidColorBrush x:Key="Color_BG_Lockview_TableBG" Color="#FF0A2834"/>
+    <SolidColorBrush x:Key="Color_BG_Lockview_LineBG" Color="#4C185C70"/>
+
+    <!-- Hybrid Blue Skin -->
+
+    <SolidColorBrush x:Key="Color_BD_RightButton" Color="#BFA7DFFF"/>
+
+    <LinearGradientBrush x:Key="Color_BG_RightButton" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF337296" Offset="0"/>
+        <GradientStop Color="#FF004B75" Offset="0.75"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_RightButton_Highlight" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#7F00F9FF" Offset="0"/>
+        <GradientStop Color="#1900F9FF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BD_TopCloseButton_Shadow" Color="#FF00344B"/>
+    <SolidColorBrush x:Key="Color_BD_TopCloseButton_HighLight" Color="#FFCAF3FF"/>
+    <SolidColorBrush x:Key="Color_FG_TopCloseButton" Color="#FFF4F4F5"/>
+    <LinearGradientBrush x:Key="Color_BG_TopCloseButton_HighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFA7EBED" Offset="0"/>
+        <GradientStop Color="#FF00E2FF" Offset="0.5"/>
+        <GradientStop Color="#FF51FFFB" Offset="0.48"/>
+        <GradientStop Color="#FF95FDFF" Offset="1"/>
+        <GradientStop Color="#FF4ACBCE" Offset="0.8"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_TopCloseButton_TopHighLight" Color="#FFA7EDEB"/>
+    <SolidColorBrush x:Key="Color_BG_MainOuterBG" Color="#E5001616"/>
+    <SolidColorBrush x:Key="Color_BG_MainInnerBG" Color="#E500161B"/>
+    <SolidColorBrush x:Key="Color_BD_MainInnerBG" Color="#7FB6F0FF"/>
+    <Color x:Key="Efect_Logo_shadow">#FF001B29</Color>
+    <LinearGradientBrush x:Key="Color_BG_TopFrame" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#002390B6" Offset="0"/>
+        <GradientStop Color="#E500161B" Offset="1"/>
+        <GradientStop Color="#FF40B3D9" Offset="0.15"/>
+        <GradientStop Color="#FF03366E" Offset="0.38"/>
+        <GradientStop Color="#FF050F13" Offset="0.41"/>
+        <GradientStop Color="#FF08141F" Offset="0.8"/>
+        <GradientStop Color="#FF207EB5" Offset="0.25"/>
+        <GradientStop Color="#FF2390B6" Offset="0.002"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_MainFrame" Color="#FF001E29"/>
+    <SolidColorBrush x:Key="Color_BD_MainFrame" Color="#996BC2FF"/>
+    <LinearGradientBrush x:Key="Color_BG_MainFrame_HighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Offset="0" Color="#00004660"/>
+        <GradientStop Offset="1" Color="#00004660"/>
+        <GradientStop Color="#B2004660" Offset="0.53"/>
+        <GradientStop Color="#B2004660" Offset="0.47"/>
+        <GradientStop Color="#00004660" Offset="0.1"/>
+        <GradientStop Color="#00004660" Offset="0.9"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SubMenuFrameBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF005993" Offset="0"/>
+        <GradientStop Color="#FF001E29" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_SubMenuFrameBG" Color="#996BC2FF"/>
+    <SolidColorBrush x:Key="Color_BG_MainFrame_TopBG" Color="#F2002A41"/>
+    <SolidColorBrush x:Key="Color_BD_MainFrame_TopBG" Color="#7FB6F0FF"/>
+    <!--<SolidColorBrush x:Key="Color_BG_TextBox" Color="#FFC1E7EC"/>
+    <SolidColorBrush x:Key="Color_BD_TextBox" Color="#FF00325C"/>
+    <SolidColorBrush x:Key="Color_BG_TextBox_Highlight" Color="#BFFFFFFF"/>-->
+    <SolidColorBrush x:Key="Color_FG_TextBlock_Dark" Color="#FF06223E"/>
+    <SolidColorBrush x:Key="Color_FG_TextBlock_Light" Color="#FFCBEDFF"/>
+
+    <SolidColorBrush x:Key="Color_BG_LogoBG" Color="#FFBBEDFD"/>
+
+    <LinearGradientBrush x:Key="Color_BD_LogoBorder" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="White" Offset="0.5"/>
+        <GradientStop Color="#7FFFFFFF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_EraserBlue1" Color="#FFB8E5F0"/>
+    <SolidColorBrush x:Key="Color_BG_EraserWhite1" Color="White"/>
+    <SolidColorBrush x:Key="Color_BG_EraserWhite2" Color="#FFB8B8B8"/>
+    <SolidColorBrush x:Key="Color_BG_EraserBlue2" Color="#FF608891"/>
+    <SolidColorBrush x:Key="Color_BG_EraserHighLight" Color="#FF49EAFF"/>
+    <LinearGradientBrush x:Key="Color_BG_TopMenu_HighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF62A9D4" Offset="0"/>
+        <GradientStop Color="#FF29CDD2" Offset="1"/>
+        <GradientStop Color="#FF3F8BC0" Offset="0.44"/>
+        <GradientStop Color="#FF0A4195" Offset="0.45"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_TopMenu_HighLight" Color="Black"/>
+    <Color x:Key="Effect_TopMenu_HighLight">#FFAAFAFF</Color>
+    <SolidColorBrush x:Key="Color_FG_TopMenu_HighLight" Color="White"/>
+    <SolidColorBrush x:Key="Color_BG_TopSubMenu" Color="#FFCDEFFF"/>
+    <SolidColorBrush x:Key="Color_BD_TopSubMenu" Color="#BFD7FAFF"/>
+    <LinearGradientBrush x:Key="Color_BG_TopSubMenu_InnerGlow" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF41A8C4" Offset="0"/>
+        <GradientStop Color="#FF41A8C4" Offset="1"/>
+        <GradientStop Color="#FFB3DEE9" Offset="0.5"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_TopSubMenu_HighLight" Color="#7FFFFFFF"/>
+    <SolidColorBrush x:Key="Color_BD_TopSubMenu_HighLight" Color="#CCFFFFFF"/>
+    <Color x:Key="Effect_TopSubMenu_HighLight">White</Color>
+    <SolidColorBrush x:Key="Color_BG_Menu_Arrow" Color="#7FFFFFFF"/>
+    <SolidColorBrush x:Key="Color_BG_Menu_Arrow_OnMouseOver" Color="#FFFFBB00"/>
+
+    <Color x:Key="Effect_Eraser_HighLight">White</Color>
+    <SolidColorBrush x:Key="Color_BG_Eraser_Shadow" Color="Black"/>
+    <Color x:Key="Effect_TopTextBox">#FFA2DCF3</Color>
+    <SolidColorBrush x:Key="Color_FG_TextWhite" Color="White"/>
+    <Color x:Key="Effect_Logo_Shadow">#FF061016</Color>
+    <SolidColorBrush x:Key="Color_FG_TopMenu" Color="White"/>
+    <SolidColorBrush x:Key="Color_FG_TopSubMenu" Color="#FF003453"/>
+    <SolidColorBrush x:Key="Color_BG_RightFrame_Top" Color="#CC00476A"/>
+    <SolidColorBrush x:Key="Color_BD_RightFrame_Top" Color="#7FB6F0FF"/>
+    <SolidColorBrush x:Key="Color_BG_TableColumn1" Color="#7F002F52"/>
+    <SolidColorBrush x:Key="Color_BD_TableColumn" Color="#FF4084AF"/>
+    <SolidColorBrush x:Key="Color_BG_TableColumn2" Color="#7F000A1E"/>
+
+    <SolidColorBrush x:Key="Color_FG_Button" Color="White"/>
+    <LinearGradientBrush x:Key="Color_BG_Button" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF336078" Offset="0"/>
+        <GradientStop Color="#FF003552" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_Button" Color="#E5A7DFFF"/>
+    <LinearGradientBrush x:Key="Color_BG_Button_HighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#B200F9FF" Offset="0"/>
+        <GradientStop Color="#1900F9FF" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_Button_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFA7A7A7" Offset="0"/>
+        <GradientStop Color="#FF5A5A5A" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_Button_Unable" Color="#E5D6D6D6"/>
+
+    <LinearGradientBrush x:Key="Color_BG_ComboBox_Outer" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF0088B6" Offset="0"/>
+        <GradientStop Color="#FF00203D" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_ComboBox" Color="#FF58A9E0"/>
+    <LinearGradientBrush x:Key="Color_BG_ComboBox_OuterHighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF7BD2FF" Offset="0"/>
+        <GradientStop Color="#FF00728F" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_ComboBox_Inner" Color="#FF58A7CE"/>
+    <SolidColorBrush x:Key="Color_BG_ComboBox_Inner2" Color="#FFACDFFF"/>
+    <SolidColorBrush x:Key="Color_BG_ComboBox_InnerHighLight" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_BG_ComboBox_Arrow" Color="White"/>
+    <LinearGradientBrush x:Key="Color_BG_ComboBox_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFD0D0D0" Offset="0"/>
+        <GradientStop Color="#FF6E6E6E" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_ComboBox_Unable" Color="#FFB1B1B1"/>
+    <SolidColorBrush x:Key="Color_BG_ComboBox_Inner_Unable" Color="#FFC2C2C2"/>
+    <SolidColorBrush x:Key="Color_BG_ComboBox_Inner2_Unable" Color="#FFE2E2E2"/>
+    <SolidColorBrush x:Key="Color_BG_ComboBox_Arrow_Unable" Color="Gainsboro"/>
+
+    <SolidColorBrush x:Key="Color_BG_RightMenu_HighLight" Color="#FF004B75"/>
+    <SolidColorBrush x:Key="Color_BD_RightMenu_HighLight" Color="#7F80CEFF"/>
+    <Color x:Key="Effect_RightMenu_Shadow">#FF002339</Color>
+
+    <SolidColorBrush x:Key="Color_BG_RightSubMenu" Color="#F2004264"/>
+    <SolidColorBrush x:Key="Color_BD_RightSubMenu" Color="#996BC2FF"/>
+
+    <SolidColorBrush x:Key="Color_BG_NavigationMenu" Color="#00003858"/>
+    <SolidColorBrush x:Key="Color_BG_NavigationMenu_HighLight" Color="#FF003858"/>
+    <SolidColorBrush x:Key="Color_BD_NavigationMenu" Color="#0080CEFF"/>
+    <SolidColorBrush x:Key="Color_BD_NavigationMenu_HighLight" Color="#FF80CEFF"/>
+    <SolidColorBrush x:Key="Color_FG_NavigationMenu" Color="#FF65C3FF"/>
+    <SolidColorBrush x:Key="Color_FG_NavigationMenu_HighLight" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_FG_NavigationClass" Color="#FFFFFA69"/>
+    <LinearGradientBrush x:Key="Color_BG_Statistics_ProgressBar" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF0A5B88" Offset="0"/>
+        <GradientStop Color="#FF5CDFFF" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_BottomBtn_Outer" Color="Black"/>
+
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomOuterBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFF2F5F9" Offset="0"/>
+        <GradientStop Color="#FF4C7A8B" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomOuterBorder" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF5CA2CB" Offset="0"/>
+        <GradientStop Color="#FF3E5767" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomMiddleBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF050C0F" Offset="0"/>
+        <GradientStop Color="#FF08283F" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomMiddleBorder" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF111111" Offset="0"/>
+        <GradientStop Color="#FFCFDBE0" Offset="1"/>
+    </LinearGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_BTN_BottomInnerBG">
+        <GradientStop Color="#FF052636" Offset="0.3"/>
+        <GradientStop Color="#FF286489" Offset="1"/>
+    </RadialGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_BTN_BottomInnerGlow" Color="#BF47F2FF"/>
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomHighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#4C9BD4E6"/>
+        <GradientStop Offset="1" Color="#009BD4E6"/>
+        <GradientStop Color="#4C9BD4E6" Offset="0.25"/>
+        <GradientStop Color="#009BD4E6" Offset="0.45"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_White" Color="White"/>
+
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomOuterBG_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFE2E2E2" Offset="0"/>
+        <GradientStop Color="#FF666666" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomOuterBorder_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFE2E2E2" Offset="0"/>
+        <GradientStop Color="#FF525252" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomMiddleBG_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF454545" Offset="0"/>
+        <GradientStop Color="#FF686868" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomMiddleBorder_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF393939" Offset="0"/>
+        <GradientStop Color="#FFB4B4B4" Offset="1"/>
+    </LinearGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_BTN_BottomInnerBG_Unable">
+        <GradientStop Color="#FF494949" Offset="0.3"/>
+        <GradientStop Color="#FF747474" Offset="1"/>
+    </RadialGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_LogoBG_Unable" Color="#FFB2B2B2"/>
+    <LinearGradientBrush x:Key="Color_BG_BTN_BottomHighLight_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#4CA7A7A7"/>
+        <GradientStop Offset="1" Color="#00DEDEDE"/>
+        <GradientStop Color="#4CB8B8B8" Offset="0.25"/>
+        <GradientStop Color="#00DEDEDE" Offset="0.45"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BD_OuterBorder_HighLight" Color="White"/>
+
+    <LinearGradientBrush x:Key="Color_BG_FOUP" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFB2D9DC" Offset="0"/>
+        <GradientStop Color="#FFB2D9DC" Offset="1"/>
+        <GradientStop Color="#FFE5F7FA" Offset="0.35"/>
+        <GradientStop Color="#FFE5F7FA" Offset="0.65"/>
+        <GradientStop Color="White" Offset="0.5"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_FOUP" Color="Black"/>
+    <SolidColorBrush x:Key="Color_BG_FOUP_TopOuter" Color="#CC006FA9"/>
+    <SolidColorBrush x:Key="Color_BD_FOUP_Outer" Color="#CC6BC2FF"/>
+    <SolidColorBrush x:Key="Color_BG_FOUP_TopInner" Color="#CC004064"/>
+    <SolidColorBrush x:Key="Color_BG_FOUP_Outer" Color="#CC085071"/>
+    <SolidColorBrush x:Key="Color_BD_FOUP_InnerDark" Color="#FF002537"/>
+    <SolidColorBrush x:Key="Color_BD_FOUP_InnerLight" Color="White"/>
+    <LinearGradientBrush x:Key="Color_BG_FOUP_Inner" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF004563" Offset="0"/>
+        <GradientStop Color="#FF004563" Offset="1"/>
+        <GradientStop Color="#FF006B98" Offset="0.35"/>
+        <GradientStop Color="#FF006B98" Offset="0.65"/>
+        <GradientStop Color="#FF016F9D" Offset="0.5"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_TableTitle" Color="#FF0F648F"/>
+    <SolidColorBrush x:Key="Color_BG_SelectCtrl" Color="#FF0F648F"/>
+    <SolidColorBrush x:Key="Color_BD_TableTitle" Color="#CC63B3EA"/>
+    <SolidColorBrush x:Key="Color_BG_TableTitle_Inner" Color="#CC00283F"/>
+    <SolidColorBrush x:Key="Color_BG_Grid_Inner" Color="#CC00283F"/>
+    <SolidColorBrush x:Key="Color_BG_Plot_BG" Color="#FF002033"/>
+    <SolidColorBrush x:Key="Color_BG_SelectCtrl_Inner" Color="#CC00283F"/>
+    <SolidColorBrush x:Key="Color_BG_Table_BG1" Color="#FF002033"/>
+    <SolidColorBrush x:Key="Color_BG_Table_BG2" Color="#FF004364"/>
+    <SolidColorBrush x:Key="Color_BG_Table_BG2_Alpha50" Color="#7F004364"/>
+
+    <SolidColorBrush x:Key="Color_BG_Expander_Light" Color="#CC006FA9"/>
+    <SolidColorBrush x:Key="Color_FG_Expander_HighLight" Color="#CCDCF1FF"/>
+    <SolidColorBrush x:Key="Color_BG_Expander_HighLight" Color="White"/>
+    <SolidColorBrush x:Key="Color_BG_TableBG_HighLight" Color="#FF125B80"/>
+    <SolidColorBrush x:Key="Color_BG_ScrollbarThumbBG" Color="#CC58AEDA"/>
+    <SolidColorBrush x:Key="Color_BG_ScrollBar_HighLight" Color="#7F39CDFF"/>
+    <SolidColorBrush x:Key="Color_BG_ScrollbarArrowBG" Color="#CC58AEDA"/>
+    <SolidColorBrush x:Key="Color_BG_TableTitle_Unable" Color="#CCC8C8C8"/>
+    <SolidColorBrush x:Key="Color_BD_TableColumn_Unable" Color="#FFC6C6C6"/>
+    <SolidColorBrush x:Key="Color_BG_TableTitle_Inner_Unable" Color="#CC747474"/>
+    <SolidColorBrush x:Key="Color_BG_ScrollbarArrowBG_Unable" Color="#CCD8D8D8"/>
+    <SolidColorBrush x:Key="Color_BD_RadionButton_Dark" Color="#CC000A1E"/>
+    <SolidColorBrush x:Key="Color_BD_RadioButton" Color="#FF63B3EA"/>
+    <SolidColorBrush x:Key="Color_BG_RadioButton" Color="#198DCEFF"/>
+    <SolidColorBrush x:Key="Color_BG_RadioButton_Selected" Color="#FFD2F4FF"/>
+    <LinearGradientBrush x:Key="Color_BG_RadionButton_HighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#CC00E2FF" Offset="0"/>
+        <GradientStop Color="#330ABFD6" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_RadioButton_Unable" Color="#FF9B9B9B"/>
+    <SolidColorBrush x:Key="Color_BD_RadioButton_Unable" Color="#FFCCCCCC"/>
+    <SolidColorBrush x:Key="Color_BG_RadioButton_Selected_Unable" Color="#FFD8D8D8"/>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_01" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF7A7A7A" Offset="1"/>
+        <GradientStop Color="Gainsboro"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_02" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF838383" Offset="1"/>
+        <GradientStop Color="#FFBABABA"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_03" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFE4E4E4" Offset="1"/>
+        <GradientStop Color="White"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_04" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFE7E7E7" Offset="1"/>
+        <GradientStop Color="#FFABABAB"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_05" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF8B8B8B" Offset="0"/>
+        <GradientStop Color="#FFCACACA" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_06" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="White" Offset="0"/>
+        <GradientStop Color="#FFD8D8D8" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_07" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF959595" Offset="0"/>
+        <GradientStop Color="#FFDEDEDE" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_08" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFBEBEBE" Offset="0"/>
+        <GradientStop Color="#FF585858" Offset="0.867"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Selected01" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF006FB6" Offset="1"/>
+        <GradientStop Color="#FF00B9DC"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Selected02" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF84EBFF"/>
+        <GradientStop Color="#FF1197FF" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Selected03" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFCAF9FF" Offset="1"/>
+        <GradientStop Color="#FFCAF9FF"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Selected04" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF0095D4"/>
+        <GradientStop Color="#FF00D5EF" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Selected05" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF51AFCE" Offset="1"/>
+        <GradientStop Color="#FF1C6D8F"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Selected06" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF23BDFF" Offset="1"/>
+        <GradientStop Color="#FF80D9FF"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Selected07" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF00ABF3" Offset="0"/>
+        <GradientStop Color="#FFC2EDFF" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Selected08" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFAEE0FF" Offset="0"/>
+        <GradientStop Color="#FF00558B" Offset="0.867"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BD_CheckBoxRadio_Selected" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF001D2D" Offset="0"/>
+        <GradientStop Color="#FF236385" Offset="0.996"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_CheckBoxRadio" Color="#FF003850"/>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Unable01" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFA3A3A3" Offset="1"/>
+        <GradientStop Color="#FFCCCCCC"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Unable02" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF9F9F9F" Offset="1"/>
+        <GradientStop Color="#FFBABABA"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Unable03" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFBCBCBC" Offset="1"/>
+        <GradientStop Color="#FFD2D2D2"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Unable04" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFC6C6C6" Offset="1"/>
+        <GradientStop Color="#FFB6B6B6"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Unable05" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFB2B2B2" Offset="0"/>
+        <GradientStop Color="#FFCACACA" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Unable06" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFD0D0D0" Offset="0"/>
+        <GradientStop Color="#FFD8D8D8" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Unable07" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFA7A7A7" Offset="0"/>
+        <GradientStop Color="#FFD6D6D6" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SpeakRadio_Unable08" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFCECECE" Offset="0"/>
+        <GradientStop Color="#FF9F9F9F" Offset="0.867"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_CheckBoxRadio" Color="#BFA7DFFF"/>
+    <LinearGradientBrush x:Key="Color_BG_CheckBoxRadio_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFBABABA" Offset="0"/>
+        <GradientStop Color="#FFDADADA" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_CheckBoxRadio_Unable_2" Color="#FF9F9F9F"/>
+    <SolidColorBrush x:Key="Color_BD_CheckBoxRadio_Unable" Color="#FFCACACA"/>
+
+    <SolidColorBrush x:Key="Color_BG_TabItem_HighLight" Color="#CC0096B2"/>
+    <SolidColorBrush x:Key="Color_BG_TabItem_Inner" Color="#CC00283F"/>
+    <SolidColorBrush x:Key="Color_BG_TabItem_Inner_HighLight" Color="DeepSkyBlue"/>
+    <Color x:Key="Color_FG_TabTextShadow">Black</Color>
+    <SolidColorBrush x:Key="Color_BD_TabItem_Outer" Color="#CC63B3EA"/>
+    <SolidColorBrush x:Key="Color_BG_TabItem_Outer" Color="#CC0F648F"/>
+
+    <SolidColorBrush x:Key="Color_BG_SelectCtrl_OuterBG" Color="#CC001F2F"/>
+    <SolidColorBrush x:Key="Color_BD_SelectCtrl" Color="#7FFFFFFF"/>
+    <RadialGradientBrush x:Key="Color_BG_SelectCtrl_InnerBG">
+        <GradientStop Color="#FF00283D" Offset="0.3"/>
+        <GradientStop Color="#FF0072AF" Offset="1"/>
+    </RadialGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SelectCtrl_Light" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF67FFFC" Offset="0"/>
+        <GradientStop Color="#FF00A6FD" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_SelectCtrl_HighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="White" Offset="0.2"/>
+        <GradientStop Offset="1"/>
+    </LinearGradientBrush>
+    <Color x:Key="Color_Effect_SelectCtrl_OuterGlow">#FF00F9FF</Color>
+    <SolidColorBrush x:Key="Color_BG_SelectCtrl_OuterBG_Unable" Color="#FF686868"/>
+    <RadialGradientBrush x:Key="Color_BG_SelectCtrl_InnerBG_Unable">
+        <GradientStop Color="#FF434343" Offset="0.3"/>
+        <GradientStop Color="#FF7E7E7E" Offset="1"/>
+    </RadialGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_TextBox_Outer" Color="#FFC1E7EC"/>
+    <SolidColorBrush x:Key="Color_BD_TextBox" Color="#FF90C1CE"/>
+    <SolidColorBrush x:Key="Color_BG_TextBox_HighLight" Color="#BFFFFFFF"/>
+    <SolidColorBrush x:Key="Color_BG_TextBox_Inner_Unable" Color="#FF959595"/>
+    <SolidColorBrush x:Key="Color_BG_TextBox_Outer_Unable" Color="#FFC6C6C6"/>
+    <SolidColorBrush x:Key="Color_BD_TextBox_Unable" Color="#CCCACACA"/>
+    <SolidColorBrush x:Key="Color_BD_TextBox_InnerTopBD" Color="#9900345E"/>
+    <SolidColorBrush x:Key="Color_BD_TextBox_InnerBottomBD" Color="White"/>
+    <SolidColorBrush x:Key="Color_BG_TextBox_IsSelected" Color="#BF00CAFF"/>
+    <SolidColorBrush x:Key="Color_BD_TextBox_InnerTopBD_Unable" Color="#996E6E6E"/>
+    <SolidColorBrush x:Key="Color_BD_TextBox_InnerBottomBD_Unable" Color="#FFDADADA"/>
+    <SolidColorBrush x:Key="Color_BG_Button_Outer" Color="#FF0094BA"/>
+    <SolidColorBrush x:Key="Color_BG_Button_Outer_Unable" Color="#FFBABABA"/>
+
+    <SolidColorBrush x:Key="Color_BG_CheckBox_Outer" Color="#CC001F2F"/>
+    <SolidColorBrush x:Key="Color_BG_CheckBox_Inner" Color="#CC063E5A"/>
+    <SolidColorBrush x:Key="Color_BD_CheckBox" Color="#CCA2CFED"/>
+    <SolidColorBrush x:Key="Color_BG_CheckBox_HighLight" Color="#CC00D6FF"/>
+    <LinearGradientBrush x:Key="Color_BG_CheckBox_OuterBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFBDF1FF" Offset="0"/>
+        <GradientStop Color="#FF75A9C4" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BD_CheckBox_OuterBD" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF17526C" Offset="0"/>
+        <GradientStop Color="#FF002535" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BD_CheckBox_MiddleBD" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF001827" Offset="0"/>
+        <GradientStop Color="#FF00426C" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_CheckBox_InnerBG" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF001735" Offset="0"/>
+        <GradientStop Color="#FF0098CA" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BD_CheckBox_InnerBD" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF00101D" Offset="0"/>
+        <GradientStop Color="#FF004664" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_CheckBox_OuterBG_HighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF35B9FF" Offset="0"/>
+        <GradientStop Color="#FFC8EEFF" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BD_CheckBox_OuterBD_HighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF00192D" Offset="0"/>
+        <GradientStop Color="#FF006587" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_CheckBox_InnerHighLight" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF5AB2EA" Offset="1"/>
+        <GradientStop Color="#FFE8FDFF" Offset="0.2"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_CheckBox_TickBG" Color="#FF001C27"/>
+    <SolidColorBrush x:Key="Color_BG_CheckBox_Unable" Color="#00B8B8B8"/>
+    <SolidColorBrush x:Key="Color_BG_CheckBox_OuterBG_Unable" Color="Silver"/>
+    <SolidColorBrush x:Key="Color_BD_CheckBox_OuterBD_Unable" Color="#FF7A7A7A"/>
+    <SolidColorBrush x:Key="Color_BD_CheckBox_MiddleBD_Unable" Color="#FF9F9F9F"/>
+    <LinearGradientBrush x:Key="Color_BG_CheckBox_InnerBG_Unable" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFA5A5A5" Offset="0"/>
+        <GradientStop Color="#FFE0E0E0" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_CheckBox_InnerBD_Unable" Color="#FFA7A7A7"/>
+    <SolidColorBrush x:Key="Color_BD_CheckBox_Unable" Color="#E5A5A5A5"/>
+
+    <SolidColorBrush x:Key="Color_BG_TreeView_OnMouseOver" Color="#5900A7FF"/>
+    <SolidColorBrush x:Key="Color_BD_TreeView_OnMouseOver" Color="#7F84E6FF"/>
+    <SolidColorBrush x:Key="Color_FG_TreeView_OnMouseOver" Color="#FFFEFFBD"/>
+    <SolidColorBrush x:Key="Color_BG_TreeView_Selected" Color="#7F00A7FF"/>
+
+    <SolidColorBrush x:Key="Color_BG_Listview_Header_HighLight" Color="#FF0094E0"/>
+    <SolidColorBrush x:Key="Color_BG_ListviewItemBG" Color="#99005F87"/>
+
+    <SolidColorBrush x:Key="Color_BG_TextBox_Inner" Color="#FF0096BE"/>
+
+    <SolidColorBrush x:Key="Color_BG_HistoryMenuBG" Color="#CC063E5A"/>
+
+    <SolidColorBrush x:Key="Color_BG_Login" Color="#FF02324B"/>
+    <LinearGradientBrush x:Key="Color_BG_LoginPanel_Outer" EndPoint="0.75,0.933" StartPoint="0.25,0.067">
+        <GradientStop Color="#FFCEDEE8" Offset="0.2"/>
+        <GradientStop Color="#FF1F598E" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_LoginPanel_OuterBorder" EndPoint="0.75,0.933" StartPoint="0.25,0.067">
+        <GradientStop Color="White"/>
+        <GradientStop Offset="0.75" Color="#19FFFFFF"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_LoginPanel_Middle" EndPoint="0.75,0.933" StartPoint="0.25,0.067">
+        <GradientStop Color="#FFA7D5E6"/>
+        <GradientStop Offset="1" Color="White"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_LoginPanel_MiddleShadow" EndPoint="0.75,0.933" StartPoint="0.25,0.067">
+        <GradientStop Color="#CC002C43"/>
+        <GradientStop Offset="1" Color="#FF002C43"/>
+        <GradientStop Color="#8C002C43" Offset="0.5"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_LoginPanel_MiddleInnerBorder" EndPoint="0.75,0.933" StartPoint="0.25,0.067">
+        <GradientStop Color="#B2EAF7FF" Offset="0"/>
+        <GradientStop Offset="0.6"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_LoginPanel_MiddleInner" EndPoint="0.75,0.933" StartPoint="0.25,0.067">
+        <GradientStop Color="#FF068CB3"/>
+        <GradientStop Offset="1" Color="#FF003D5D"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_LoginButton_Outer" Color="White"/>
+    <SolidColorBrush x:Key="Color_BD_LoginButton" Color="#FF10839D"/>
+    <RadialGradientBrush x:Key="Color_BG_LoginButton_Middle">
+        <GradientStop Color="#FF79F2FF" Offset="0"/>
+        <GradientStop Color="#FF00A7BE" Offset="1"/>
+    </RadialGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_LoginButton_Highlight" EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+        <GradientStop Color="#99FFFFFF" Offset="0.004"/>
+        <GradientStop Offset="0.8"/>
+    </LinearGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_LoginButton_HighLight">
+        <GradientStop Color="#FFE5FFF0" Offset="0"/>
+        <GradientStop Color="#FF00C254" Offset="1"/>
+    </RadialGradientBrush>
+    <LinearGradientBrush x:Key="Color_BG_LoginDivider" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF00305A" Offset="0.5"/>
+        <GradientStop Color="#FF1D8AB0" Offset="0.51"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_FG_LoginText" Color="#FF5FAFC6"/>
+    <LinearGradientBrush x:Key="Color_BG_LoginPanel_Inner" EndPoint="0.75,0.933" StartPoint="0.25,0.067">
+        <GradientStop Color="#FF00729F"/>
+        <GradientStop Offset="1" Color="#FF003450"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_Loading" EndPoint="1,1" StartPoint="0,0">
+        <GradientStop Color="#FF008FD3" Offset="0"/>
+        <GradientStop Color="#FF00324E" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BD_Loading_ImageBorder" Color="#FF7FD6FF"/>
+    <SolidColorBrush x:Key="Color_BG_LoadingBar_Outer" Color="#FF001D33"/>
+    <LinearGradientBrush x:Key="Color_BD_LoadingBar_Outer" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF000A13" Offset="0"/>
+        <GradientStop Color="#FF44A8DE" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_LoadingBase" Color="#FF00C0FF"/>
+    <SolidColorBrush x:Key="Color_BG_LoadingBar" Color="#FF63F4FF"/>
+    <SolidColorBrush x:Key="Color_FG_LoadingText" Color="#FFB2E8FE"/>
+
+    <SolidColorBrush x:Key="Color_BG_Lock_InnerGlow" Color="#FF00283F"/>
+    <SolidColorBrush x:Key="Color_BG_LockPanel" Color="#CC1B7FB2"/>
+    <SolidColorBrush x:Key="Color_BD_Lock" Color="#FFAEE7FF"/>
+    <SolidColorBrush x:Key="Color_FG_LockText" Color="#FFA9E0FF"/>
+    <SolidColorBrush x:Key="Color_BG_Lock" Color="#D800324E"/>
+
+    <SolidColorBrush x:Key="Color_BG_OnlineTextView" Color="#6600A7FF"/>
+
+    <SolidColorBrush x:Key="Color_BG_SingleTower_TopBorder" Color="#FF1A2038"/>
+    <SolidColorBrush x:Key="Color_BG_SingleTower_BottomBorder" Color="#FF4084AF"/>
+    <SolidColorBrush x:Key="Color_BG_SingleTower_LeftBorder" Color="#FFAEE7FF"/>
+    <SolidColorBrush x:Key="Color_BG_SingleTower_RightBorder" Color="#FFB7F0FF"/>
+    <LinearGradientBrush x:Key="Color_BG_SingleTower" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF0388CA" Offset="0"/>
+        <GradientStop Color="#FFADDBFF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="Color_BG_Dialog" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E5012C4D" Offset="0"/>
+        <GradientStop Color="#E5006CA5" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="Color_BG_Dialog2" Color="#FF006CA5"/>
+
+    <SolidColorBrush x:Key="Color_BD_CheckBoxRadio_GasExeclusion" Color="#FFA7DFFF"/>
+    <RadialGradientBrush x:Key="Color_BG_CheckBoxRadio_GasExeclusion" >
+        <GradientStop Color="#FFD64400" Offset="1"/>
+        <GradientStop Color="#FFFFCE22" Offset="0.32"/>
+    </RadialGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_TopTextbox_Normal" Color="#FF004B6C"/>
+
+    <SolidColorBrush x:Key="Color_BG_Button_Outer_LogOff" Color="#FF002551"/>
+    <SolidColorBrush x:Key="Color_BD_Button_LogOff" Color="#E5A7DFFF"/>
+    <LinearGradientBrush x:Key="Color_BG_Button_LogOff" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#66FFFFFF" Offset="0"/>
+        <GradientStop Offset="0.6"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="Color_FG_OnlineTextView" Color="#FF5AFF00"/>
+
+    <Color x:Key="Color_FG_WaferHistoryPlot_OuterBG">#0000283F</Color>
+    <Color x:Key="Color_FG_WaferHistoryPlot_InnerBG">#66009CFF</Color>
+    <Color x:Key="Color_FG_WaferHistoryPlot_TextColor">White</Color>
+
+    <SolidColorBrush x:Key="Color_BD_ListviewColumn" Color="#FF4084AF"/>
+
+    <Color x:Key="Color_FG_AxesTextColor">White</Color>
+    <Color x:Key="Color_BG_AxesGridline">#CC63B3EA</Color>
+    <Color x:Key="Color_BG_AxesErrorRate">Yellow</Color>
+
+    <RadialGradientBrush x:Key="Color_BG_24ZoneInner" RadiusY="0.688" RadiusX="0.688" GradientOrigin="-0.633,1.633">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.5" CenterX="0.5"/>
+                <RotateTransform Angle="45" CenterY="0.5" CenterX="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF0F5E87" Offset="0.533"/>
+        <GradientStop Color="#FF033651" Offset="0.94"/>
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_24ZoneInner_Highlight" RadiusY="0.688" RadiusX="0.688" GradientOrigin="-0.633,1.633">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.5" CenterX="0.5"/>
+                <RotateTransform Angle="45" CenterY="0.5" CenterX="0.5"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF01CAE8" Offset="0.533"/>
+        <GradientStop Color="#FF007196" Offset="0.94"/>
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_24ZoneOuter" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF0F5E87" Offset="0.653"/>
+        <GradientStop Color="#FF033651" Offset="0.897"/>
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="Color_BG_24ZoneOuter_Highlight" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF01CAE8" Offset="0.653"/>
+        <GradientStop Color="#FF007196" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <!--11 colors for 24zone-->
+    <RadialGradientBrush x:Key="MultiZone_FuchsiaKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FFC40099" Offset="0.653"/>
+        <GradientStop Color="#FF230027" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_PurpleKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF5331FF" Offset="0.653"/>
+        <GradientStop Color="#FF000952" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_MazarineKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF0081C4" Offset="0.653"/>
+        <GradientStop Color="#FF001A27" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_WathetKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF00E4F5" Offset="0.653"/>
+        <GradientStop Color="#FF00383F" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_DarkgreenKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF00E07E" Offset="0.653"/>
+        <GradientStop Color="#FF003B21" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_GrassgreenKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FFABFF00" Offset="0.653"/>
+        <GradientStop Color="#FF026816" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_YellowKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="Yellow" Offset="0.653"/>
+        <GradientStop Color="#FF818100" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_LightOrangeKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FFFFC700" Offset="0.653"/>
+        <GradientStop Color="#FF584500" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_DarkOrangeKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FFFF7500" Offset="0.653"/>
+        <GradientStop Color="#FF472000" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="MultiZone_RedKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FFE40000" Offset="0.653"/>
+        <GradientStop Color="#FF540000" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <RadialGradientBrush  x:Key="MultiZone_DarkRedKey" GradientOrigin="-1.273,2.335" RadiusY="0.764" RadiusX="0.764" Center="0.43,0.445">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterY="0.425" CenterX="0.458" ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0" CenterY="0.425" CenterX="0.458"/>
+                <RotateTransform Angle="57.57" CenterY="0.425" CenterX="0.458"/>
+                <TranslateTransform X="0.084" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FF970202" Offset="0.653"/>
+        <GradientStop Color="#FF1D0000" Offset="0.897"/>
+    </RadialGradientBrush>
+
+    <SolidColorBrush x:Key="Color_BG_TextBox_HighLight_WaferHistory" Color="#BF54EBFF"/>
+    <SolidColorBrush x:Key="Color_BG_TextBox_Outer_WaferHistory" Color="#FF00658C"/>
+    <SolidColorBrush x:Key="Color_BG_ComboBox_InnerHighLight_WaferHistory" Color="#FF39ABD4"/>
+    <SolidColorBrush x:Key="Color_BD_DropDownBorder" Color="#FFD8F7FF"/>
+    <SolidColorBrush x:Key="Color_BG_DropDownInnerBG" Color="#FF00739F"/>
+    <SolidColorBrush x:Key="Color_BG_DropDownOuterBG" Color="#FF0096BE"/>
+    <SolidColorBrush x:Key="Color_BD_ComboBox_WaferHistory" Color="#FF90C1CE"/>
+    <LinearGradientBrush x:Key="TitleBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF3996F3"/>
+        <GradientStop Color="#FF3996F3" Offset="1"/>
+        <GradientStop Color="#FF15529B" Offset="0.5"/>
+    </LinearGradientBrush>
+    <Style x:Key="TitleTextBoxStyle" TargetType="{x:Type TextBlock}"/>
+    <Style TargetType="{x:Type Label}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Border Padding="{TemplateBinding Padding}">
+                        <ContentPresenter RecognizesAccessKey="False"></ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="TitleLabelStyle_Center" TargetType="{x:Type Label}">
+        <Setter Property="Background" Value="{DynamicResource TitleBrush}"/>
+        <Setter Property="Template" Value="{DynamicResource TitleLabelTemplate_Center}"/>
+        <Setter Property="Padding" Value="5,2"/>
+        <Setter Property="FontFamily" Value="{DynamicResource Font_Arial}"/>
+    </Style>
+    <Style x:Key="TitleLabelStyle_White" TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="{DynamicResource Font_Arial}"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+    <ControlTemplate x:Key="TitleLabelTemplate_Center" TargetType="{x:Type Label}">
+        <Grid>
+            <Border BorderBrush="Black" BorderThickness="0.5" Margin="0" Background="{TemplateBinding Background}">
+                <TextBlock Margin="0" TextWrapping="Wrap" Text="{TemplateBinding Content}" FontFamily="Arial" FontSize="{TemplateBinding FontSize}" TextAlignment="Center" Foreground="{DynamicResource IE_WhiteFontBrush}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}"/>
+            </Border>
+        </Grid>
+    </ControlTemplate>
+    <ControlTemplate x:Key="N2RoomO2LabelTemplate" TargetType="{x:Type Label}">
+        <Grid>
+            <Ellipse    Stroke="Red" StrokeThickness="2"/>
+            <TextBlock  Height="10.612"  TextWrapping="Wrap" Text="O2"  Width="13.644" FontSize="10" Foreground="Red"/>
+        </Grid>
+    </ControlTemplate>
+    <ControlTemplate x:Key="N2RoomTHLabelTemplate" TargetType="{x:Type Label}">
+        <Grid>
+            <Ellipse   Stroke="Blue"  StrokeThickness="2"/>
+            <TextBlock  Height="6.159"  TextWrapping="Wrap" Text="T"  FontSize="6" Foreground="Blue" Margin="9.231,2.42,9.5,0" VerticalAlignment="Top"/>
+            <Rectangle Margin="1.823,9.018,1.946,9.087" Stroke="Blue" StrokeThickness="2"/>
+            <TextBlock  Height="6.159"  TextWrapping="Wrap" Text="H"  FontSize="6" Foreground="Blue" Margin="9.231,0,8.875,2.928" VerticalAlignment="Bottom"/>
+        </Grid>
+    </ControlTemplate>
+    <ControlTemplate x:Key="N2RoomPTLabelTemplate" TargetType="{x:Type Label}">
+        <Grid>
+            <TextBlock  Height="6.159"  TextWrapping="Wrap" Text="P"  FontSize="6" Foreground="Blue" Margin="4.838,3.126,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="3.667"/>
+            <TextBlock  TextWrapping="Wrap" Text="T"  FontSize="6" Foreground="Blue" Margin="0,10,4.425,3.946" HorizontalAlignment="Right" Width="3.974"/>
+            <Rectangle  Stroke="Gray" StrokeThickness="2"/>
+            <Path Data="M21.366902,1.462033 L1.9184128,18.08646" Margin="0.918,0.414,0.281,0.973" Stretch="Fill" Stroke="Gray" StrokeThickness="2"/>
+        </Grid>
+    </ControlTemplate>
+    <Style x:Key="LoadingTextBoxStyle" TargetType="{x:Type TextBox}">
+        <Setter Property="Template" Value="{DynamicResource LoadingTextBoxTemplate}"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="BorderBrush" Value="#99DFE6EB"/>
+        <Setter Property="CaretBrush" Value="#99DFE6EB"/>
+        <Setter Property="Foreground" Value="#99DFE6EB"/>
+        <Setter Property="Background" Value="{x:Null}"/>
+        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        <Setter Property="Padding" Value="2,0"/>
+        <Setter Property="AllowDrop" Value="True"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+    </Style>
+    <ControlTemplate x:Key="LoadingTextBoxTemplate" TargetType="{x:Type TextBox}">
+        <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5" Background="{TemplateBinding Background}">
+            <ScrollViewer x:Name="PART_ContentHost"/>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <Style x:Key="LoadingPasswordBoxStyle" TargetType="{x:Type PasswordBox}">
+        <Setter Property="Template" Value="{DynamicResource LoadingPasswordBoxTemplate}"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="BorderBrush" Value="#99DFE6EB"/>
+        <Setter Property="CaretBrush" Value="#99DFE6EB"/>
+        <Setter Property="Foreground" Value="#99DFE6EB"/>
+        <Setter Property="Background" Value="{x:Null}"/>
+        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        <Setter Property="PasswordChar" Value="*"/>
+        <Setter Property="Padding" Value="2,0"/>
+        <Setter Property="AllowDrop" Value="True"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+    </Style>
+    <ControlTemplate x:Key="LoadingPasswordBoxTemplate" TargetType="{x:Type PasswordBox}">
+        <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+            <ScrollViewer x:Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <!-- ComboBoxItem样式 -->
+    <Style x:Key="ComboBoxItemStyle" TargetType="ComboBoxItem">
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Height" Value="35"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ComboBoxItem">
+                    <Border Name="Back" Background="Gray" BorderThickness="0,0,0,0" BorderBrush="#FF6A6A6A" >
+                        <ContentPresenter ContentSource="{Binding Source}" Margin="{TemplateBinding Padding}" HorizontalAlignment="Left" VerticalAlignment="Center"></ContentPresenter>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsHighlighted" Value="True">
+                            <Setter TargetName="Back" Property="Background" Value="SkyBlue"></Setter>
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="Back" Property="Background" Value="DodgerBlue"></Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!-- ToggleButton样式（折叠展开按钮） -->
+    <Style x:Key="ComboBoxToggleButton" TargetType="{x:Type ToggleButton}">
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="IsTabStop" Value="false"/>
+        <Setter Property="Focusable" Value="false"/>
+        <Setter Property="ClickMode" Value="Press"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ToggleButton}">
+                    <Border x:Name="templateRoot" CornerRadius="5" SnapsToDevicePixels="true" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="#FF565656">
+                        <Border x:Name="splitBorder" CornerRadius="5" Width="35" SnapsToDevicePixels="true" Margin="0" HorizontalAlignment="Right" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="#FF565656" Background="Transparent">
+                            <Path x:Name="arrow" VerticalAlignment="Center" Margin="10,0,0,0" Stretch="Fill" Height="12" Width="16" HorizontalAlignment="Left" Fill="#99DFE6EB" Data="M 50,50 L 0,0 100,0 z"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding IsEditable, RelativeSource={RelativeSource AncestorType={x:Type ComboBox}}}" Value="true"/>
+                                <Condition Binding="{Binding IsMouseOver, RelativeSource={RelativeSource Self}}" Value="false"/>
+                                <Condition Binding="{Binding IsPressed, RelativeSource={RelativeSource Self}}" Value="false"/>
+                                <Condition Binding="{Binding IsEnabled, RelativeSource={RelativeSource Self}}" Value="true"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter Property="BorderBrush" TargetName="templateRoot" Value="#FF565656"/>
+                        </MultiDataTrigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Fill" TargetName="arrow" Value="#FFADADAD"/>
+                            <Setter Property="BorderBrush" TargetName="templateRoot" Value="#FFADADAD"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Fill" TargetName="arrow" Value="#FFDFE6EB"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!-- ComboBox Template样式 -->
+    <ControlTemplate x:Key="ComboBoxTemplate" TargetType="{x:Type ComboBox}">
+        <Grid x:Name="templateRoot" SnapsToDevicePixels="true">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0"/>
+            </Grid.ColumnDefinitions>
+            <Popup x:Name="PART_Popup" AllowsTransparency="true" Grid.ColumnSpan="2" IsOpen="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" Margin="1" PopupAnimation="{DynamicResource {x:Static SystemParameters.ComboBoxPopupAnimationKey}}" Placement="Bottom">
+                <Border x:Name="dropDownBorder" BorderBrush="{DynamicResource {x:Static SystemColors.WindowFrameBrushKey}}" BorderThickness="1" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" MaxHeight="{TemplateBinding MaxDropDownHeight}" MinWidth="{Binding ActualWidth, ElementName=templateRoot}">
+                    <ScrollViewer x:Name="DropDownScrollViewer">
+                        <Grid x:Name="grid" RenderOptions.ClearTypeHint="Enabled">
+                            <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="0" VerticalAlignment="Top" Width="0">
+                                <Rectangle x:Name="opaqueRect" Fill="{Binding Background, ElementName=dropDownBorder}" Height="{Binding ActualHeight, ElementName=dropDownBorder}" Width="{Binding ActualWidth, ElementName=dropDownBorder}"/>
+                            </Canvas>
+                            <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Continue" Background="#FFFFFFFF"/>
+                        </Grid>
+                    </ScrollViewer>
+                </Border>
+            </Popup>
+            <Border Grid.ColumnSpan="2" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
+                <Grid>
+                    <ToggleButton x:Name="toggleButton" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0" Background="{TemplateBinding Background}" Grid.ColumnSpan="2" IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" Style="{StaticResource ComboBoxToggleButton}"/>
+                    <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}" Content="{TemplateBinding SelectionBoxItem}" ContentStringFormat="{TemplateBinding SelectionBoxItemStringFormat}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" IsHitTestVisible="false" Margin="{TemplateBinding Padding}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                </Grid>
+            </Border>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="HasItems" Value="false">
+                <Setter Property="Height" TargetName="dropDownBorder" Value="95"/>
+            </Trigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsGrouping" Value="true"/>
+                    <Condition Property="VirtualizingPanel.IsVirtualizingWhenGrouping" Value="false"/>
+                </MultiTrigger.Conditions>
+                <Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+            </MultiTrigger>
+            <Trigger Property="ScrollViewer.CanContentScroll" SourceName="DropDownScrollViewer" Value="false">
+                <Setter Property="Canvas.Top" TargetName="opaqueRect" Value="{Binding VerticalOffset, ElementName=DropDownScrollViewer}"/>
+                <Setter Property="Canvas.Left" TargetName="opaqueRect" Value="{Binding HorizontalOffset, ElementName=DropDownScrollViewer}"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <!-- ComboBox属性设置 -->
+    <Style x:Key="ComboBoxStyle" TargetType="{x:Type ComboBox}">
+        <Setter Property="Background" Value="{x:Null}"/>
+        <Setter Property="BorderBrush" Value="#99DFE6EB"/>
+        <Setter Property="Foreground" Value="#99DFE6EB"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="Padding" Value="6,3,5,3"/>
+        <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
+        <Setter Property="ScrollViewer.PanningMode" Value="Both"/>
+        <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="ItemContainerStyle" Value="{DynamicResource ComboBoxItemStyle}"/>
+        <Setter Property="Template" Value="{StaticResource ComboBoxTemplate}"/>
+    </Style>
+    <Style x:Key="ProgressBarStyle" TargetType="{x:Type ProgressBar}">
+        <Setter Property="Template" Value="{DynamicResource ProgressBarTemplate}"/>
+        <Setter Property="Foreground" Value="#A05BC0DE"/>
+        <Setter Property="Background" Value="#FFF5F5F5"/>
+        <Setter Property="BorderBrush" Value="#20000000"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+    <ControlTemplate x:Key="ProgressBarTemplate" TargetType="{x:Type ProgressBar}">
+        <Grid>
+            <Border x:Name="TemplateRoot" CornerRadius="4" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
+                <Border.Effect>
+                    <BlurEffect Radius="2"/>
+                </Border.Effect>
+            </Border>
+            <Grid Margin="{TemplateBinding BorderThickness}">
+                <Rectangle x:Name="PART_Track"/>
+                <Grid HorizontalAlignment="Left">
+                    <Decorator x:Name="PART_Indicator" HorizontalAlignment="Left" Margin="0,-1,0,0">
+                        <Border CornerRadius="4" x:Name="Animation" ClipToBounds="true" Background="{TemplateBinding Foreground}">
+                            <Rectangle x:Name="PART_GlowRect" Fill="Blue" HorizontalAlignment="Left" Margin="-100,0,0,0" Width="100"/>
+                        </Border>
+                    </Decorator>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Label FontSize="16" Foreground="#FF31708F" Padding="3,0,0,1" Content="{TemplateBinding Value}"/>
+                        <Label FontSize="16" Foreground="#FF31708F" Padding="1,0,0,1" Content="%"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="Orientation" Value="Vertical">
+                <Setter Property="LayoutTransform" TargetName="TemplateRoot">
+                    <Setter.Value>
+                        <RotateTransform Angle="-90"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <Style x:Key="TitleLabelStyle_Left" TargetType="{x:Type Label}">
+        <Setter Property="Template" Value="{DynamicResource TitleLabelTemplate_Left}"/>
+    </Style>
+    <ControlTemplate x:Key="TitleLabelTemplate_Left" TargetType="{x:Type Label}">
+        <Grid>
+            <Border BorderBrush="Black" BorderThickness="2" Margin="0" Background="{DynamicResource TitleBrush}">
+                <TextBlock Margin="0" TextWrapping="Wrap" Text="{TemplateBinding Content}" FontFamily="Arial" FontSize="18.667" TextAlignment="Left" Foreground="{DynamicResource IE_WhiteFontBrush}" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+            </Border>
+        </Grid>
+    </ControlTemplate>
+    <FontFamily x:Key="IE_FontFamily">Arial</FontFamily>
+    <Style x:Key="TextBoxStyle" TargetType="{x:Type TextBox}">
+        <Setter Property="Template" Value="{DynamicResource TextBoxTemplate}"/>
+        <Setter Property="Background" Value="{DynamicResource White}"/>
+        <Setter Property="BorderBrush" Value="#FFBCE8F1"/>
+        <Setter Property="Foreground" Value="#FF428BCA"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+    <ControlTemplate x:Key="TextBoxTemplate" TargetType="{x:Type TextBox}">
+        <Grid>
+            <Border x:Name="border" CornerRadius="4" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                <Border.Effect>
+                    <DropShadowEffect x:Name="dse" BlurRadius="8" ShadowDepth="0" Color="#9966afe9" Opacity="0"/>
+                </Border.Effect>
+                <Rectangle Height="1" VerticalAlignment="Top" Stroke="#000000" Opacity="0.1">
+                    <Rectangle.Effect>
+                        <BlurEffect Radius="1"/>
+                    </Rectangle.Effect>
+                </Rectangle>
+            </Border>
+            <!--内容放在外面-->
+            <ScrollViewer x:Name="PART_ContentHost" Margin="0" Padding="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsFocused" Value="True">
+                <Trigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="dse" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.15">
+                                <DoubleAnimation.EasingFunction>
+                                    <BackEase EasingMode="EaseInOut" />
+                                </DoubleAnimation.EasingFunction>
+                            </DoubleAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.EnterActions>
+                <Trigger.ExitActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="dse" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.15">
+                                <DoubleAnimation.EasingFunction>
+                                    <BackEase EasingMode="EaseInOut" />
+                                </DoubleAnimation.EasingFunction>
+                            </DoubleAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.ExitActions>
+                <Setter Property="BorderBrush" Value="#66afe9"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="#555"/>
+                <Setter Property="Background" Value="#eee"/>
+                <Setter Property="BorderBrush" Value="#ccc"/>
+                <Setter Property="Cursor" Value="No"/>
+            </Trigger>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Cursor" Value="IBeam"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <Style x:Key="SubTitleLabelStyle_Left" TargetType="{x:Type Label}">
+        <Setter Property="Template" Value="{DynamicResource SubTitleLabelTemplate_Left}"/>
+        <Setter Property="FontFamily" Value="{DynamicResource IE_FontFamily}"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+    <LinearGradientBrush x:Key="SubLabelTitleBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF04b0f8" Offset="0"/>
+        <GradientStop Color="#FF014e7c" Offset="0.5"/>
+        <GradientStop Color="#FF0065a7" Offset="1"/>
+    </LinearGradientBrush>
+    <ControlTemplate x:Key="SubTitleLabelTemplate_Left" TargetType="{x:Type Label}">
+        <Grid>
+            <Border BorderBrush="Black" BorderThickness="0.5" Margin="0" Background="{DynamicResource SubLabelTitleBrush}">
+                <TextBlock Margin="0" TextWrapping="Wrap" Text="{TemplateBinding Content}" Foreground="{DynamicResource IE_WhiteFontBrush}" TextAlignment="{TemplateBinding TextBlock.TextAlignment}" FontFamily="{TemplateBinding FontFamily}" FontSize="{TemplateBinding FontSize}" VerticalAlignment="Center" Padding="{TemplateBinding Padding}"/>
+            </Border>
+        </Grid>
+    </ControlTemplate>
+    <Style x:Key="SubTitleLabelStyle_Center" TargetType="{x:Type Label}">
+        <Setter Property="Template" Value="{DynamicResource SubTitleLabelTemplate_Center}"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+    <ControlTemplate x:Key="SubTitleLabelTemplate_Center" TargetType="{x:Type Label}">
+        <Grid>
+            <Border BorderBrush="Black" BorderThickness="0.5" Margin="0" Background="{DynamicResource SubLabelTitleBrush}">
+                <TextBlock Margin="0" TextWrapping="Wrap" Text="{TemplateBinding Content}" Foreground="{DynamicResource IE_WhiteFontBrush}" TextAlignment="Center" FontFamily="{TemplateBinding FontFamily}" FontSize="{TemplateBinding FontSize}" VerticalAlignment="{TemplateBinding VerticalAlignment}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" Padding="{TemplateBinding Padding}"/>
+            </Border>
+        </Grid>
+    </ControlTemplate>
+    <SolidColorBrush x:Key="IE_FontColor_SizoneBlue" Color="#FF003C74"/>
+    <System:Double x:Key="IE_FontSize14">18.667</System:Double>
+    <SolidColorBrush x:Key="IE_FontColor_ForestGreen" Color="#FF063B60"/>
+    <TextAlignment x:Key="IE_TextAlignment_Left">Left</TextAlignment>
+    <FontWeight x:Key="IE_FontWeight">Bold</FontWeight>
+    <Style x:Key="ValueLabelStyle" TargetType="{x:Type Label}">
+        <Setter Property="Template" Value="{DynamicResource ValueLabelTemplate}"/>
+    </Style>
+    <LinearGradientBrush x:Key="ValueLabelBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="#FF5DAACF"/>
+    </LinearGradientBrush>
+    <ControlTemplate x:Key="ValueLabelTemplate" TargetType="{x:Type Label}">
+        <Grid Height="34.108" Width="124.624">
+            <Border BorderBrush="Black" BorderThickness="1" Background="{DynamicResource ValueLabelBrush}">
+                <TextBlock Margin="0" TextWrapping="Wrap" Text="TextBlock" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="{TemplateBinding Block.TextAlignment}" FontFamily="Arial" Width="125.728" FontSize="18.667" Height="36.233"/>
+            </Border>
+        </Grid>
+    </ControlTemplate>
+    <Style x:Key="ParaNameLabelStyle" TargetType="{x:Type Label}">
+        <Setter Property="Template" Value="{DynamicResource ParaNameLabelTemplate}"/>
+    </Style>
+    <SolidColorBrush x:Key="ParaNameTextBrush" Color="#FF0698AF"/>
+    <ControlTemplate x:Key="ParaNameLabelTemplate" TargetType="{x:Type Label}">
+        <Grid>
+            <TextBlock Margin="0" TextWrapping="Wrap" Text="{TemplateBinding Content}" VerticalAlignment="Center" FontFamily="{DynamicResource IE_FontFamily}" FontSize="{TemplateBinding FontSize}" TextAlignment="Right" Foreground="{DynamicResource ParaNameTextBrush}"/>
+        </Grid>
+    </ControlTemplate>
+    <Style x:Key="ParaValueTextBoxStyle" TargetType="{x:Type TextBox}">
+        <Setter Property="Template" Value="{DynamicResource ParaValueTextBoxTemplate}"/>
+    </Style>
+    <LinearGradientBrush x:Key="ParaValueTextBoxBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="Black" Offset="0"/>
+        <GradientStop Color="#FF91DAE6"/>
+    </LinearGradientBrush>
+    <ControlTemplate x:Key="ParaValueTextBoxTemplate" TargetType="{x:Type TextBox}">
+        <TextBlock Height="{TemplateBinding Width}" TextWrapping="Wrap" Text="{TemplateBinding Text}" Width="{TemplateBinding Height}" Background="{DynamicResource ParaValueTextBoxBrush}" FontFamily="{DynamicResource IE_FontFamily}" VerticalAlignment="{TemplateBinding VerticalAlignment}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" FontSize="{TemplateBinding FontSize}" Margin="{TemplateBinding Margin}" Padding="{TemplateBinding Padding}"/>
+    </ControlTemplate>
+    <Style x:Key="ParaValueLabelStyle" TargetType="{x:Type Label}">
+        <Setter Property="Template" Value="{DynamicResource ParaValueLabelTemplate}"/>
+    </Style>
+    <ControlTemplate x:Key="ParaValueLabelTemplate" TargetType="{x:Type Label}">
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF978F8F"/>
+                    <GradientStop Color="#FF978F8F" Offset="1"/>
+                    <GradientStop Color="#FF978F8F" Offset="0.522"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock Margin="0" TextWrapping="Wrap" Text="{TemplateBinding Content}" FontFamily="{DynamicResource IE_FontFamily}" FontSize="16" TextAlignment="Center"/>
+        </Grid>
+    </ControlTemplate>
+    <Thickness x:Key="ucControlMargin">6</Thickness>
+    <RadialGradientBrush x:Key="BoolIOOffBrush">
+        <GradientStop Color="#FF484B48" Offset="1"/>
+        <GradientStop Color="#FF979B96"/>
+        <GradientStop Color="#FF7D807B" Offset="0.619"/>
+        <GradientStop Color="#FF8F958D" Offset="0.267"/>
+    </RadialGradientBrush>
+    <Style x:Key="BooleanIOEllipseOffStyle" TargetType="{x:Type Ellipse}">
+        <Setter Property="Fill" Value="{DynamicResource BoolIOOffBrush}"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+    <RadialGradientBrush x:Key="BoolIOOnBrush">
+        <GradientStop Color="#FF1960A8" Offset="1"/>
+        <GradientStop Color="#FF3996F3"/>
+        <GradientStop Color="#FF0963CE" Offset="0.619"/>
+        <GradientStop Color="#FF076CE5" Offset="0.267"/>
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="BoolYellow">
+        <GradientStop Color="#FF8DA819" Offset="1"/>
+        <GradientStop Color="#FFE5E89C"/>
+        <GradientStop Color="#FFC6CE09" Offset="0.619"/>
+        <GradientStop Color="#FFDCD465" Offset="0.268"/>
+    </RadialGradientBrush>
+    <Style x:Key="BooleanIOEllipseOnStyle" TargetType="{x:Type Ellipse}">
+        <Setter Property="Fill" Value="{DynamicResource BoolIOOnBrush}"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+    <SolidColorBrush x:Key="ForeshGreenBrush" Color="#FF0963CE"/>
+    <SolidColorBrush x:Key="ForeshGreyBrush" Color="#A9A9A9" />
+    <SolidColorBrush x:Key="IE_BlackFontBrush" Color="Black"/>
+    <SolidColorBrush x:Key="IE_AliceBlue" Color="AliceBlue"/>
+    <SolidColorBrush x:Key="IE_BlueBrush" Color="#FF0004FF"/>
+    <LinearGradientBrush x:Key="IE_RectFillBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFccebff" Offset="0"/>
+        <GradientStop Color="AliceBlue" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="TopPanel_StatusNameLable_Background" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF076CE5"/>
+        <GradientStop Color="#FF003107" Offset="0.561"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="TopPanel_StatusNameLabel_BorderBrush" Color="#FF076CE5"/>
+    <LinearGradientBrush x:Key="TopPanel_RectFillBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF006fe2" Offset="0"/>
+        <GradientStop Color="#FF00428a" Offset="0.5"/>
+        <GradientStop Color="#FF0050a0" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BottomPanel_RectFillBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF00a9fc" Offset="0"/>
+        <GradientStop Color="#FF00438a" Offset="1"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="TopPanel_RectStrokeBrush" Color="#FF0963CE"/>
+    <SolidColorBrush x:Key="TopPanel_ValueRectFillBrush" Color="#FF0d223d"/>
+    <Style x:Key="IE_CalendarStyle" TargetType="{x:Type Calendar}">
+        <Setter Property="Template" Value="{DynamicResource IE_CalendarControlTemplate}"/>
+    </Style>
+    <ControlTemplate x:Key="IE_CalendarControlTemplate" TargetType="{x:Type Calendar}">
+        <Viewbox Stretch="Fill" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+            <Calendar SelectionMode="SingleDate" FirstDayOfWeek="Monday" IsTodayHighlighted="True" Height="156.031" Width="176.783" FontFamily="{DynamicResource IE_FontFamily}" Foreground="Black" Cursor="Hand">
+                <Calendar.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF79837A"/>
+                        <GradientStop Color="#FF3996F3" Offset="0.16"/>
+                        <GradientStop Color="#FF79837A" Offset="0.155"/>
+                        <GradientStop Color="#FFAEB2DE" Offset="0.166"/>
+                        <GradientStop Color="Black" Offset="0.086"/>
+                    </LinearGradientBrush>
+                </Calendar.Background>
+            </Calendar>
+        </Viewbox>
+    </ControlTemplate>
+    <SolidColorBrush x:Key="IE_LightGreen" Color="#FF3996F3"/>
+    <LinearGradientBrush x:Key="MenuRectangleFillBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF076CE5"/>
+        <GradientStop Color="#FF063A58" Offset="1"/>
+        <GradientStop Color="#FF076CE5"/>
+        <GradientStop Color="#FF063A58" Offset="0.695"/>
+    </LinearGradientBrush>
+    <SolidColorBrush x:Key="IE_LightBlue" Color="#FF6D84CC"/>
+    <System:Double x:Key="IE_FontSize12">16</System:Double>
+    <LinearGradientBrush x:Key="IE_DoorOpenBrush" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF063A58"/>
+        <GradientStop Color="#FF6DC6DA" Offset="0.3"/>
+        <GradientStop Color="#FF03596C" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="IE_DoorCloseBrush" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FF272727"/>
+        <GradientStop Color="#FF878484" Offset="0.3"/>
+        <GradientStop Color="#FF272727" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="IE_DoorStandbyBrush" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#FFC9E425" Offset="0.5"/>
+        <GradientStop Color="#FF063A58" Offset="0.05"/>
+        <GradientStop Color="#FF14658B" Offset="0.95"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="IE_DoorUnknownBrush" EndPoint="1,0.5" StartPoint="0,0.5">
+        <GradientStop Color="#5AFFFFFF"/>
+        <GradientStop Color="Black" Offset="0.202586"/>
+        <GradientStop Color="#5AFFFFFF" Offset="0.413793"/>
+        <GradientStop Color="Black" Offset="0.62069"/>
+        <GradientStop Color="#5AFFFFFF" Offset="0.831897"/>
+        <GradientStop Color="Black" Offset="1"/>
+    </LinearGradientBrush>
+
+    <System:Double x:Key="EddyButtonWidth">160</System:Double>
+    
+    <System:Double x:Key="FontSize9">9</System:Double>
+    <System:Double x:Key="FontSize10">10</System:Double>
+    <System:Double x:Key="FontSize11">11</System:Double>
+    <System:Double x:Key="FontSize12">12</System:Double>
+    <System:Double x:Key="FontSize13">13</System:Double>
+    <System:Double x:Key="FontSize14">14</System:Double>
+    <System:Double x:Key="FontSize15">15</System:Double>
+    <System:Double x:Key="FontSize16">16</System:Double>
+    <System:Double x:Key="FontSize18">18</System:Double>
+    <System:Double x:Key="FontSize20">20</System:Double>
+    <Style x:Key="ReadOnlyTextBoxStyle" TargetType="{x:Type TextBox}">
+        <Setter Property="Background" Value="{DynamicResource IE_LightGreen}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource Black}"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="2,0"/>
+        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        <Setter Property="AllowDrop" Value="true"/>
+        <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
+        <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TextBox}">
+                    <TextBox Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" Foreground="{TemplateBinding Foreground}" BorderThickness="{TemplateBinding BorderThickness}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" VerticalAlignment="{TemplateBinding VerticalAlignment}" Margin="{TemplateBinding Margin}" Padding="{TemplateBinding Padding}" FontFamily="{TemplateBinding FontFamily}" FontSize="{TemplateBinding FontSize}" IsReadOnly="{TemplateBinding IsReadOnly}" Text="{TemplateBinding Text}"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="1,0"/>
+        <Setter Property="FontFamily" Value="{DynamicResource Font_Arial}"/>
+        <Setter Property="FontSize" Value="{DynamicResource FontSize12}"/>
+        <Setter Property="IsReadOnly" Value="True"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+    <Style x:Key="CheckRadioFocusVisual">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Margin="14,0,0,0" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="IEToolTip" TargetType="ToolTip">
+        <Setter Property="Background" Value="#666666"/>
+        <Setter Property="Padding" Value="6"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="ArialMT"/>
+        <Setter Property="HorizontalOffset" Value="-16"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToolTip">
+                    <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition Height="5*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Viewbox Grid.Row="0" Grid.Column="0" Stretch="Uniform"  HorizontalAlignment="Left" Margin="10,0,0,0">
+                            <Path Data="M48.75,116.75 L40.5,124 57.25,124 z" Fill="{TemplateBinding Background}" HorizontalAlignment="Left" Height="8.25"  Stretch="Fill" Stroke="{TemplateBinding Background}" VerticalAlignment="Top" Width="17.75"/>
+                        </Viewbox>
+                        <Border Grid.Row="1" x:Name="Root" Grid.ColumnSpan="2"  CornerRadius="6" Margin="0,-2,0,0"  
+                                    Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}">
+                            <Border.Resources>
+                                <Storyboard x:Key="Visible State"/>
+                                <Storyboard x:Key="Normal State"/>
+                            </Border.Resources>
+                            <ContentPresenter TextBlock.Foreground="White" TextBlock.FontFamily="ArialMT"  
+                              Content="{TemplateBinding Content}"  
+                              ContentTemplate="{TemplateBinding ContentTemplate}"  
+                              Cursor="{TemplateBinding Cursor}"  
+                              Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="SliderCheckBox" TargetType="{x:Type CheckBox}">
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <ControlTemplate.Resources>
+                        <Storyboard x:Key="StoryboardIsChecked">
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="CheckFlag">
+                                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="14"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                        <Storyboard x:Key="StoryboardIsCheckedOff">
+                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="CheckFlag">
+                                <EasingDoubleKeyFrame KeyTime="0" Value="14"/>
+                                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </ControlTemplate.Resources>
+                    <BulletDecorator Background="Transparent" SnapsToDevicePixels="true">
+                        <BulletDecorator.Bullet>
+                            <Border x:Name="ForegroundPanel" BorderThickness="1" Width="35" Height="20" CornerRadius="10">
+                                <Canvas>
+                                    <Border Background="White" x:Name="CheckFlag" CornerRadius="10" VerticalAlignment="Center" BorderThickness="1" Width="19" Height="18" RenderTransformOrigin="0.5,0.5">
+                                        <Border.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform X="14"/>
+                                            </TransformGroup>
+                                        </Border.RenderTransform>
+                                        <Border.Effect>
+                                            <DropShadowEffect ShadowDepth="1" Direction="180" />
+                                        </Border.Effect>
+                                    </Border>
+                                </Canvas>
+                            </Border>
+                        </BulletDecorator.Bullet>
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="Center"/>
+                    </BulletDecorator>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="HasContent" Value="true">
+                            <Setter Property="FocusVisualStyle" Value="{StaticResource CheckRadioFocusVisual}"/>
+                            <Setter Property="Padding" Value="4,0,0,0"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="ForegroundPanel" Property="Background" Value="Green" />
+                            <Trigger.EnterActions>
+                                <BeginStoryboard x:Name="BeginStoryboardCheckedTrue" Storyboard="{StaticResource StoryboardIsChecked}" />
+                                <RemoveStoryboard BeginStoryboardName="BeginStoryboardCheckedFalse" />
+                            </Trigger.EnterActions>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter TargetName="ForegroundPanel" Property="Background" Value="Gray" />
+                            <Trigger.EnterActions>
+                                <BeginStoryboard x:Name="BeginStoryboardCheckedFalse" Storyboard="{StaticResource StoryboardIsCheckedOff}" />
+                                <RemoveStoryboard BeginStoryboardName="BeginStoryboardCheckedTrue" />
+                            </Trigger.EnterActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="BoolYellowBrush" TargetType="{x:Type Ellipse}">
+        <Setter Property="Fill" Value="{DynamicResource BoolYellow}"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+
+
+    <Style TargetType="DataGridColumnHeader" x:Key="DataGridColumnHeaderStyle">
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="{StaticResource TitleBrush}"/>
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="BorderThickness" Value="0.4"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+    </Style>
+
+    <Style x:Key="ContentCenterStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+    </Style>
+
+    <Style TargetType="DataGridRow" x:Key="DataGridTransparentRowStyle">
+        <Setter Property="Background" Value="#F0F3F5"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="true">
+                <Setter Property="Background" Value="Transparent"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="DataGridCell" x:Key="DataGridTransparentCellStyle">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type DataGridCell}">
+                    <Grid Background="{TemplateBinding Background}">
+                        <ContentPresenter  />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="DataGridCell.IsSelected" Value="True">
+                <Setter Property="Background" Value="Transparent" />
+                <Setter Property="Foreground" Value="Black"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

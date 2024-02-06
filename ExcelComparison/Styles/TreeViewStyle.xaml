@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <!--隐藏TreeView控件选中行的背景色-->
+    <Style TargetType="TreeView" x:Key="HideSelectedItemBackGround">
+        <Style.Resources>
+            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#1b222d" Opacity="0"/>
+            <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Color="#1b222d" Opacity="0"/>
+        </Style.Resources>
+    </Style>
+
+    <Style TargetType="{x:Type TreeViewItem}" x:Key="AutoExpendTreeViewItemsStyle">
+        <Setter Property="IsExpanded" Value="True"></Setter>
+    </Style>
+
+
+</ResourceDictionary>
